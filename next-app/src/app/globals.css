@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #F3F0E7;
+  --color-text: #1A1A1A;
+  --color-accent-green: #064E3B;
+  --color-card-green: #0D5F46;
+  --color-light-green: #D1FAE5;
+  --color-gray-text: #666666;
+  --color-star-yellow: #f59e0b;
+  --font-family-sans: var(--font-poppins), sans-serif;
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 900px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* react-day-picker theme override */
+.rdp-root {
+  --rdp-accent-color: var(--color-accent-green);
+  --rdp-accent-background-color: var(--color-light-green);
+}
