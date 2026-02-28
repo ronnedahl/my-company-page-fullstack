@@ -12,7 +12,7 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-white border-2 border-accent-green rounded-[16px] p-6 sm:p-10"
+      className="bg-card-bg border-2 border-accent-green rounded-[16px] p-6 sm:p-10"
     >
       <div className="mb-5">
         <label htmlFor="name" className="block font-semibold text-[0.9rem] mb-2">
@@ -24,7 +24,7 @@ export default function ContactForm() {
           name="name"
           placeholder="Ditt namn"
           required
-          className="w-full px-4 py-3 border border-[#ddd] rounded-lg text-[0.9rem] outline-none transition-colors duration-300 focus:border-accent-green"
+          className="w-full px-4 py-3 border border-border rounded-lg text-[0.9rem] outline-none transition-colors duration-300 focus:border-accent-green"
         />
       </div>
       <div className="mb-5">
@@ -37,7 +37,7 @@ export default function ContactForm() {
           name="email"
           placeholder="din@epost.se"
           required
-          className="w-full px-4 py-3 border border-[#ddd] rounded-lg text-[0.9rem] outline-none transition-colors duration-300 focus:border-accent-green"
+          className="w-full px-4 py-3 border border-border rounded-lg text-[0.9rem] outline-none transition-colors duration-300 focus:border-accent-green"
         />
       </div>
       <div className="mb-5">
@@ -50,7 +50,7 @@ export default function ContactForm() {
           rows={5}
           placeholder="Berätta vad du behöver hjälp med..."
           required
-          className="w-full px-4 py-3 border border-[#ddd] rounded-lg text-[0.9rem] outline-none transition-colors duration-300 focus:border-accent-green resize-y"
+          className="w-full px-4 py-3 border border-border rounded-lg text-[0.9rem] outline-none transition-colors duration-300 focus:border-accent-green resize-y"
         />
       </div>
       <button

@@ -24,6 +24,8 @@ export {
   faArrowLeft,
   faShieldHalved,
   faCode,
+  faSun,
+  faMoon,
 } from "@fortawesome/free-solid-svg-icons";
 
 export { faEnvelope as faEnvelopeRegular } from "@fortawesome/free-regular-svg-icons";

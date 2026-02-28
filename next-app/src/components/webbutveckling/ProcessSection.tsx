@@ -30,7 +30,7 @@ const steps: StepData[] = [
 
 export default function ProcessSection() {
   return (
-    <section className="bg-white py-20 my-15 rounded-[30px]">
+    <section className="bg-card-bg py-20 my-15 rounded-[30px]">
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="text-center mb-15">
           <h2 className="text-[1.8rem] md:text-[2.5rem] font-semibold mb-4">

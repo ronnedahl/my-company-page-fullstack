@@ -8,10 +8,10 @@ export default function Hero() {
   return (
     <section id="home" className="text-center pt-15 pb-10">
       <div className="max-w-[1200px] mx-auto px-5">
-        <div className="uppercase tracking-[2px] text-[#888] mb-2.5 flex items-center justify-center gap-4 font-semibold text-sm">
-          <span className="w-10 h-px bg-[#ccc]" />
+        <div className="uppercase tracking-[2px] text-gray-text mb-2.5 flex items-center justify-center gap-4 font-semibold text-sm">
+          <span className="w-10 h-px bg-border" />
           Din Lokala Partner
-          <span className="w-10 h-px bg-[#ccc]" />
+          <span className="w-10 h-px bg-border" />
         </div>
 
         <h1 className="text-2xl md:text-[3.5rem] font-semibold mb-5 tracking-tight leading-tight">

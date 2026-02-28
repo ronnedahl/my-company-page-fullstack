@@ -43,7 +43,7 @@ export default function BookingForm({ onSubmit, loading }: BookingFormProps) {
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Ditt namn"
-            className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-accent-green"
+            className="w-full px-4 py-3 rounded-lg border border-border focus:outline-none focus:border-accent-green"
           />
         </div>
 
@@ -57,7 +57,7 @@ export default function BookingForm({ onSubmit, loading }: BookingFormProps) {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="din@email.se"
-            className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-accent-green"
+            className="w-full px-4 py-3 rounded-lg border border-border focus:outline-none focus:border-accent-green"
           />
         </div>
 
@@ -68,7 +68,7 @@ export default function BookingForm({ onSubmit, loading }: BookingFormProps) {
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             placeholder="070-123 45 67"
-            className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-accent-green"
+            className="w-full px-4 py-3 rounded-lg border border-border focus:outline-none focus:border-accent-green"
           />
         </div>
 
@@ -81,7 +81,7 @@ export default function BookingForm({ onSubmit, loading }: BookingFormProps) {
             onChange={(e) => setDescription(e.target.value)}
             placeholder="T.ex. 'Vill veta hur AI kan hjälpa min restaurang...'"
             rows={3}
-            className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-accent-green resize-none"
+            className="w-full px-4 py-3 rounded-lg border border-border focus:outline-none focus:border-accent-green resize-none"
           />
         </div>
 

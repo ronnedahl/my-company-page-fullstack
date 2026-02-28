@@ -54,7 +54,7 @@ export default function TimeSlotPicker({ date, selected, onSelect }: TimeSlotPic
                   ? "bg-gray-100 text-gray-400 cursor-not-allowed line-through"
                   : selected === slot.start_time
                     ? "bg-accent-green text-white"
-                    : "bg-white border border-gray-200 hover:border-accent-green cursor-pointer"
+                    : "bg-card-bg border border-border hover:border-accent-green cursor-pointer"
               }`}
             >
               {slot.start_time}

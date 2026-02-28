@@ -8,6 +8,8 @@
   --color-light-green: #D1FAE5;
   --color-gray-text: #666666;
   --color-star-yellow: #f59e0b;
+  --color-card-bg: #FFFFFF;
+  --color-border: #E5E7EB;
   --font-family-sans: var(--font-poppins), sans-serif;
   --breakpoint-sm: 600px;
   --breakpoint-md: 900px;
@@ -37,8 +39,32 @@
   }
 }
 
+/* Light mode defaults */
+:root {
+  --logo-filter: none;
+}
+
+/* Dark mode — activated by data-theme="dark" on <html> */
+[data-theme="dark"] {
+  --color-bg: #1A1A1A;
+  --color-text: #F0EDE6;
+  --color-accent-green: #10B981;
+  --color-card-green: #059669;
+  --color-light-green: #1A4D3D;
+  --color-gray-text: #9CA3AF;
+  --color-star-yellow: #FBBF24;
+  --color-card-bg: #2A2A2A;
+  --color-border: #3A3A3A;
+  --logo-filter: brightness(0) invert(1);
+}
+
 /* react-day-picker theme override */
 .rdp-root {
   --rdp-accent-color: var(--color-accent-green);
   --rdp-accent-background-color: var(--color-light-green);
+}
+
+/* Logo dark mode filter */
+.logo-auto {
+  filter: var(--logo-filter);
 }

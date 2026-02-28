@@ -24,7 +24,7 @@ export default function BookingConfirmation({ booking }: BookingConfirmationProp
         Vi ser fram emot att träffa dig.
       </p>
 
-      <div className="bg-white rounded-xl p-6 max-w-md mx-auto text-left space-y-3 border border-gray-200">
+      <div className="bg-card-bg rounded-xl p-6 max-w-md mx-auto text-left space-y-3 border border-border">
         <div className="flex justify-between">
           <span className="text-gray-text text-sm">Tjänst</span>
           <span className="font-medium text-sm">

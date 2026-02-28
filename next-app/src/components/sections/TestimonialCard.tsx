@@ -8,7 +8,7 @@ export default function TestimonialCard({
   authorCompany,
 }: TestimonialData) {
   return (
-    <div className="bg-white border border-[#ddd] rounded-xl p-7">
+    <div className="bg-card-bg border border-border rounded-xl p-7">
       <div className="text-star-yellow mb-4 text-[0.9rem] flex gap-1">
         {Array.from({ length: 5 }).map((_, i) => (
           <FontAwesomeIcon key={i} icon={faStar} />

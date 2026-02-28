@@ -40,7 +40,7 @@ export default function ServicePicker({ selected, onSelect }: ServicePickerProps
             className={`text-left p-6 rounded-xl border-2 transition-all cursor-pointer ${
               selected === s.id
                 ? "border-accent-green bg-light-green/30"
-                : "border-gray-200 hover:border-accent-green/50"
+                : "border-border hover:border-accent-green/50"
             }`}
           >
             <FontAwesomeIcon
