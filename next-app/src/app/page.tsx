@@ -7,7 +7,7 @@ import Services from "@/components/sections/Services";
 import Who from "@/components/sections/Who";
 import Work from "@/components/sections/Work";
 import Pricing from "@/components/sections/Pricing";
-import Testimonials from "@/components/sections/Testimonials";
+import Process from "@/components/sections/Process";
 import Contact from "@/components/sections/Contact";
 import Chatbot from "@/components/sections/Chatbot";
 
@@ -23,7 +23,7 @@ export default function Home() {
         <Who />
         <Work />
         <Pricing />
-        <Testimonials />
+        <Process />
         <Contact />
       </main>
       <Footer />
