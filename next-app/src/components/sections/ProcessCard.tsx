@@ -28,7 +28,7 @@ export default function ProcessCard({
 
       <div className="px-5 pt-4">
         <div className="relative w-full aspect-[16/10] rounded-lg overflow-hidden">
-          <Image src={imageUrl} alt={imageAlt} fill className="object-cover" />
+          <Image src={imageUrl} alt={imageAlt} fill className="object-cover brightness-75" />
         </div>
       </div>
 
