@@ -65,9 +65,9 @@ const steps = [
 
 export default function Process() {
   return (
-    <section id="process" className="py-10 sm:py-20 bg-[#0b131e]">
+    <section id="process" className="py-10 sm:py-20">
       <div className="max-w-[1200px] mx-auto px-5">
-        <h2 className="text-[1.8rem] md:text-[2.5rem] font-semibold text-white text-center mb-12">
+        <h2 className="text-[1.8rem] md:text-[2.5rem] font-semibold text-center mb-12">
           Så här går processen till
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">

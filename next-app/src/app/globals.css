@@ -6,11 +6,11 @@
   --color-accent-green: #064E3B;
   --color-card-green: #0D5F46;
   --color-light-green: #D1FAE5;
-  --color-gray-text: #666666;
+  --color-gray-text: #000;
   --color-star-yellow: #f59e0b;
   --color-card-bg: #FFFFFF;
   --color-border: #E5E7EB;
-  --font-family-sans: var(--font-poppins), sans-serif;
+  --font-family-sans: var(--font-inter), sans-serif;
   --breakpoint-sm: 600px;
   --breakpoint-md: 900px;
 }
@@ -22,8 +22,19 @@
 
   body {
     background-color: var(--color-bg);
-    color: var(--color-text);
+    color: var(--color-gray-text);
+    font-weight: 300;
     line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-poppins), sans-serif;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  h1, h2 {
+    font-weight: 400;
   }
 
   a {

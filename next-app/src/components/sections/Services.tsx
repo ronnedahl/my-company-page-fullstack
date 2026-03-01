@@ -51,7 +51,7 @@ const services: ServiceCardData[] = [
 
 export default function Services() {
   return (
-    <section id="service" className="py-20">
+    <section id="service" className="py-10 sm:py-20">
       <div className="max-w-[1200px] mx-auto px-5 mb-12">
         <h2 className="text-[1.8rem] md:text-[2.5rem] font-semibold mb-2.5">
           Våra Tjänster

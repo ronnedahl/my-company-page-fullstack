@@ -43,7 +43,7 @@ const caseStudies: CaseStudyData[] = [
 
 export default function Work() {
   return (
-    <section id="work" className="py-20">
+    <section id="work" className="py-10 sm:py-20">
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-15 gap-5">
           <div>

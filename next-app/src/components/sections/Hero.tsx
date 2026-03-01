@@ -6,7 +6,7 @@ import ButtonOutline from "@/components/ui/ButtonOutline";
 
 export default function Hero() {
   return (
-    <section id="home" className="text-center pt-15 pb-10">
+    <section id="home" className="text-center pt-15 pb-15">
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="uppercase tracking-[2px] text-gray-text mb-2.5 flex items-center justify-center gap-4 font-semibold text-sm">
           <span className="w-10 h-px bg-border" />
