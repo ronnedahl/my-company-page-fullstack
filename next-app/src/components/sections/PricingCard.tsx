@@ -10,13 +10,13 @@ export default function PricingCard({
   badge,
 }: PricingCardData) {
   const cardClasses = featured
-    ? "bg-accent-green text-white border-accent-green -translate-y-2 shadow-[0_15px_40px_rgba(6,78,59,0.25)] hover:-translate-y-3"
+    ? "bg-card-bg border-accent-green -translate-y-2 shadow-[0_15px_40px_rgba(6,78,59,0.25)] hover:-translate-y-3"
     : "bg-card-bg border-border hover:-translate-y-1.5 hover:shadow-[0_10px_30px_rgba(0,0,0,0.1)]";
 
-  const checkColor = featured ? "text-light-green" : "text-accent-green";
+  const checkColor = "text-accent-green";
 
   const btnClasses = featured
-    ? "border-white text-white hover:bg-white hover:text-accent-green"
+    ? "bg-accent-green border-accent-green text-white hover:opacity-90"
     : "border-accent-green text-accent-green hover:bg-accent-green hover:text-white";
 
   return (
