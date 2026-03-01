@@ -16,6 +16,7 @@ export {
   faLocationDot,
   faPaperPlane,
   faXmark,
+  faBars,
   faLeaf,
   faLayerGroup,
   faCalendarDays,
