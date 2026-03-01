@@ -12,7 +12,7 @@ export default function Who() {
               src="/images/peter-smile.png"
               alt="Grundare av Växtkraft Webb"
               fill
-              className="object-cover rounded-[20px]"
+              className="object-cover rounded-[20px] brightness-50 object-[center_25%]"
             />
           </div>
           <div>
