@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="py-20 sm:py-20 py-2.5">
+    <section id="about" className="py-10 sm:py-20">
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-12 mb-15">
           <h2 className="text-[1.8rem] md:text-[2.5rem] font-semibold">Om Oss</h2>
