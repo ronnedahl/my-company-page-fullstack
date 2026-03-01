@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelopeRegular } from "@/lib/icons";
 import ThemeToggle from "@/components/ui/ThemeToggle";
+import MobileMenu from "./MobileMenu";
 
 const navLinks = [
   { href: "#home", label: "Hem" },
@@ -36,7 +37,7 @@ export default function Header() {
               </li>
             ))}
           </ul>
-          <div className="flex items-center gap-3">
+          <div className="hidden md:flex items-center gap-3">
             <ThemeToggle />
             <a
               href="#contact"
@@ -46,6 +47,7 @@ export default function Header() {
               <FontAwesomeIcon icon={faEnvelopeRegular} className="ml-1" />
             </a>
           </div>
+          <MobileMenu navLinks={navLinks} />
         </nav>
       </div>
     </header>
