@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelopeRegular } from "@/lib/icons";
-import ThemeToggle from "@/components/ui/ThemeToggle";
 import MobileMenu from "./MobileMenu";
 
 const navLinks = [
@@ -38,7 +37,6 @@ export default function Header() {
             ))}
           </ul>
           <div className="hidden md:flex items-center gap-3">
-            <ThemeToggle />
             <a
               href="#contact"
               className="border border-border px-5 py-2 rounded-lg text-sm font-semibold hover:bg-text hover:text-white hover:border-text"
