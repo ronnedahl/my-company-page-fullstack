@@ -32,14 +32,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="sv" className={`${poppins.variable} ${inter.variable}`} suppressHydrationWarning>
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)})()`,
-          }}
-        />
-      </head>
+    <html lang="sv" className={`${poppins.variable} ${inter.variable}`}>
+      <head />
       <body>{children}</body>
     </html>
   );

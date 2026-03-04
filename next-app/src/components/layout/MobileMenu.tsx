@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark, faEnvelopeRegular } from "@/lib/icons";
-import ThemeToggle from "@/components/ui/ThemeToggle";
 
 interface NavLink {
   href: string;
@@ -36,8 +35,7 @@ export default function MobileMenu({ navLinks }: { navLinks: NavLink[] }) {
         open ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
       }`}
     >
-      <div className="flex justify-between items-center p-5">
-        <ThemeToggle />
+      <div className="flex justify-end items-center p-5">
         <button
           onClick={() => setOpen(false)}
           className="text-text text-2xl p-2"
