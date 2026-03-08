@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRobot, faXmark } from "@/lib/icons";
+import { faXmark } from "@/lib/icons";
 
 interface Message {
   role: "bot" | "user";
@@ -74,9 +75,15 @@ export default function Chatbot() {
     <>
       <div
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-5 right-5 md:bottom-8 md:right-8 z-[999] w-15 h-15 bg-accent-green text-white rounded-full flex items-center justify-center text-2xl cursor-pointer shadow-[0_5px_20px_rgba(6,78,59,0.3)] transition-transform duration-300 hover:scale-110"
+        className="fixed bottom-5 right-5 md:bottom-8 md:right-8 z-[999] w-15 h-15 rounded-full overflow-hidden cursor-pointer shadow-[0_5px_20px_rgba(0,0,0,0.3)] transition-transform duration-300 hover:scale-110 border-2 border-accent-green"
       >
-        <FontAwesomeIcon icon={faRobot} />
+        <Image
+          src="/images/peter-chatbot.png"
+          alt="Chatta med Peter"
+          width={60}
+          height={60}
+          className="object-cover w-full h-full"
+        />
       </div>
 
       <div
