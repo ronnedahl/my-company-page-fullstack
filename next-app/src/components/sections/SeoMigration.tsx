@@ -4,7 +4,7 @@ import { faShieldHalved } from "@/lib/icons";
 export default function SeoMigration() {
   return (
     <section className="max-w-[1200px] mx-auto px-5 mb-15">
-      <div className="bg-card-bg border border-border text-white text-center py-16 px-5 sm:px-12 rounded-[30px]">
+      <div className="bg-card-bg text-white text-center py-16 px-5 sm:px-12 rounded-[30px]">
         <div className="text-3xl mb-4 text-accent-green">
           <FontAwesomeIcon icon={faShieldHalved} />
         </div>

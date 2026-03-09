@@ -39,7 +39,7 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-3">
             <a
               href="#contact"
-              className="border border-border px-5 py-2 rounded-lg text-sm font-semibold hover:bg-text hover:text-white hover:border-text"
+              className="bg-accent-green text-white px-5 py-2 rounded-lg text-sm font-semibold hover:opacity-90"
             >
               Kontakta Oss{" "}
               <FontAwesomeIcon icon={faEnvelopeRegular} className="ml-1" />

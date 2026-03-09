@@ -18,7 +18,7 @@ export default function ProcessCard({
   description,
 }: ProcessCardProps) {
   return (
-    <div className="bg-card-bg border border-border rounded-xl overflow-hidden flex flex-col">
+    <div className="bg-card-bg rounded-xl overflow-hidden flex flex-col">
       <div className="flex items-center gap-3 p-5 pb-0">
         <span className="w-9 h-9 rounded-full bg-accent-green text-white text-sm font-bold flex items-center justify-center shrink-0">
           {step}
