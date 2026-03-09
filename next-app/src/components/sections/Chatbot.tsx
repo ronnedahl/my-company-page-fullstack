@@ -87,7 +87,7 @@ export default function Chatbot() {
       </div>
 
       <div
-        className={`fixed bottom-[90px] right-5 md:bottom-[100px] md:right-8 z-[999] w-[calc(100vw-40px)] md:w-[350px] bg-white rounded-[16px] shadow-[0_10px_40px_rgba(0,0,0,0.15)] overflow-hidden transition-all duration-300 ${
+        className={`fixed bottom-[90px] right-5 md:bottom-[100px] md:right-8 z-[999] w-[calc(100vw-40px)] md:w-[350px] bg-card-bg rounded-[16px] shadow-[0_10px_40px_rgba(0,0,0,0.4)] overflow-hidden transition-all duration-300 ${
           isOpen
             ? "opacity-100 translate-y-0 pointer-events-auto"
             : "opacity-0 translate-y-5 pointer-events-none"
@@ -128,7 +128,7 @@ export default function Chatbot() {
           <div ref={messagesEndRef} />
         </div>
 
-        <div className="px-5 py-4 border-t border-[#eee]">
+        <div className="px-5 py-4 border-t border-border">
           <div className="flex gap-2">
             <input
               type="text"
@@ -136,7 +136,7 @@ export default function Chatbot() {
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
               placeholder="Skriv ett meddelande..."
-              className="flex-1 px-4 py-2.5 border border-[#ddd] rounded-lg text-[0.85rem] outline-none"
+              className="flex-1 px-4 py-2.5 border border-border bg-bg text-text rounded-lg text-[0.85rem] outline-none focus:border-accent-green"
             />
             <button
               onClick={sendMessage}

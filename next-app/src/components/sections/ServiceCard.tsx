@@ -9,7 +9,7 @@ export default function ServiceCard({
   href,
 }: ServiceCardData) {
   return (
-    <div className="bg-card-bg text-text p-7 rounded-[16px] border border-border transition-all duration-300 hover:shadow-[0_10px_30px_rgba(0,0,0,0.08)] hover:-translate-y-1">
+    <div className="bg-card-bg text-text p-7 rounded-[16px] transition-all duration-300 hover:bg-[#1a1a1a] hover:-translate-y-1">
       <div className="text-accent-green w-10 h-10 flex items-center justify-center rounded-lg mb-5">
         <FontAwesomeIcon icon={icon} className="text-lg" />
       </div>
