@@ -30,46 +30,58 @@ export default function MobileMenu({ navLinks }: { navLinks: NavLink[] }) {
   }, [open]);
 
   const menu = (
-    <div
-      className={`fixed inset-0 bg-card-bg z-[9999] md:hidden flex flex-col transition-opacity duration-300 ${
-        open ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
-      }`}
-    >
-      <div className="flex justify-end items-center p-5">
-        <button
-          onClick={() => setOpen(false)}
-          className="text-text text-2xl p-2"
-          aria-label="Stäng meny"
-        >
-          <FontAwesomeIcon icon={faXmark} />
-        </button>
+    <>
+      {/* Backdrop */}
+      <div
+        className={`fixed inset-0 bg-black/50 z-[9998] md:hidden transition-opacity duration-300 ${
+          open ? "opacity-100" : "opacity-0 pointer-events-none"
+        }`}
+        onClick={() => setOpen(false)}
+      />
+
+      {/* Sidebar */}
+      <div
+        className={`fixed top-0 left-0 h-full w-[280px] bg-card-bg z-[9999] md:hidden flex flex-col transition-transform duration-300 ease-in-out ${
+          open ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
+        <div className="flex justify-between items-center p-5 border-b border-border">
+          <span className="text-text font-medium text-lg">Meny</span>
+          <button
+            onClick={() => setOpen(false)}
+            className="text-text text-2xl p-2"
+            aria-label="Stäng meny"
+          >
+            <FontAwesomeIcon icon={faXmark} />
+          </button>
+        </div>
+
+        <nav className="flex-1 flex flex-col p-5">
+          <ul className="flex flex-col gap-1">
+            {navLinks.map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
+                  onClick={() => setOpen(false)}
+                  className="block py-3 px-4 text-text text-base font-medium rounded-lg hover:bg-[#1a1a1a] hover:text-accent-green transition-colors"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+
+          <a
+            href="#contact"
+            onClick={() => setOpen(false)}
+            className="mt-auto bg-accent-green text-white px-6 py-3 rounded-lg font-semibold text-center hover:opacity-90 transition-all"
+          >
+            Kontakta Oss{" "}
+            <FontAwesomeIcon icon={faEnvelopeRegular} className="ml-1" />
+          </a>
+        </nav>
       </div>
-
-      <nav className="flex-1 flex flex-col items-center justify-center">
-        <ul className="flex flex-col items-center gap-2">
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className="block py-3 px-6 text-text text-xl font-medium rounded-lg hover:text-accent-green transition-colors"
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-
-        <a
-          href="#contact"
-          onClick={() => setOpen(false)}
-          className="mt-10 bg-accent-green text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-all"
-        >
-          Kontakta Oss{" "}
-          <FontAwesomeIcon icon={faEnvelopeRegular} className="ml-1" />
-        </a>
-      </nav>
-    </div>
+    </>
   );
 
   return (
