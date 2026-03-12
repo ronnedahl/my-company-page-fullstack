@@ -10,8 +10,8 @@ export default function ServiceCard({
 }: ServiceCardData) {
   return (
     <div className="bg-card-bg text-text p-7 rounded-[16px] transition-all duration-300 hover:bg-[#1a1a1a] hover:-translate-y-1">
-      <div className="text-accent-green w-10 h-10 flex items-center justify-center rounded-lg mb-5">
-        <FontAwesomeIcon icon={icon} className="text-lg" />
+      <div className="text-accent-green w-12 h-12 flex items-center justify-center rounded-lg mb-5">
+        <FontAwesomeIcon icon={icon} className="text-[28px]" />
       </div>
       <h3 className="text-[1.2rem] font-semibold mb-2.5">{title}</h3>
       <p className="text-[0.85rem] text-gray-text mb-5 leading-relaxed">
