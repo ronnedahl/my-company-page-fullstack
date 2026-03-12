@@ -24,7 +24,7 @@ export default function CaseStudy({
       }`}
     >
       <div>
-        <span className="bg-card-bg px-4 py-1 rounded-[20px] text-[0.8rem] font-semibold inline-block mb-5 text-accent-green">
+        <span className="bg-card-bg px-4 py-1 rounded-[20px] text-[0.75rem] font-medium uppercase tracking-[0.05em] inline-block mb-5 text-accent-green">
           {tag}
         </span>
         <h3 className="text-[1.2rem] md:text-[2rem] font-semibold mb-4">

@@ -17,7 +17,7 @@ export default function Who() {
           </div>
           <div>
             <h2 className="text-[1.8rem] md:text-[2.5rem] font-semibold mb-5">
-              Vem står bakom Växtkraft Webb?
+              Vem står bakom Webbkraft?
             </h2>
             <p className="text-gray-text mb-5">
               Jag heter Peter och driver Växtkraft Webb från Karlstad. Med en

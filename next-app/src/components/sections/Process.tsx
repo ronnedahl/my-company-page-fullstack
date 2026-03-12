@@ -5,7 +5,7 @@ const steps = [
     step: 1,
     title: "Syftet med din hemsida",
     imageUrl:
-      "https://images.unsplash.com/photo-1633613286991-611fe299c4be?q=80&w=2070&auto=format&fit=crop",
+      "/images/question.png",
     imageAlt: "Frågetecken och planering",
     subtitle: "Vad är syftet med din hemsida?",
     description:
@@ -15,7 +15,7 @@ const steps = [
     step: 2,
     title: "UI / UX - Design",
     imageUrl:
-      "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?q=80&w=2070&auto=format&fit=crop",
+      "/images/design-web.png",
     imageAlt: "Webbdesign på laptop",
     subtitle: "Designen är hjärtat i hemsidan",
     description:
@@ -25,7 +25,7 @@ const steps = [
     step: 3,
     title: "Programmering",
     imageUrl:
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2070&auto=format&fit=crop",
+      "/images/code.jpg",
     imageAlt: "Kod på en skärm",
     subtitle: "Programmering och utveckling",
     description:
@@ -34,8 +34,7 @@ const steps = [
   {
     step: 4,
     title: "Dags att köpa en domän",
-    imageUrl:
-      "https://images.unsplash.com/photo-1563986768609-322da13575f2?q=80&w=2070&auto=format&fit=crop",
+    imageUrl: "/images/domain.jpg",
     imageAlt: "HTTPS och domännamn",
     subtitle: "Vad är en domän?",
     description:
@@ -45,7 +44,7 @@ const steps = [
     step: 5,
     title: "Lansering online",
     imageUrl:
-      "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?q=80&w=2070&auto=format&fit=crop",
+      "/images/live.jpg",
     imageAlt: "Google på en surfplatta",
     subtitle: "Nu är det dags att gå live",
     description:
@@ -54,8 +53,7 @@ const steps = [
   {
     step: 6,
     title: "Grattis - Du gjorde det",
-    imageUrl:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop",
+    imageUrl: "/images/thumbs-up.jpg",
     imageAlt: "Glad person vid laptop",
     subtitle: "Din hemsida är nu färdig",
     description:
