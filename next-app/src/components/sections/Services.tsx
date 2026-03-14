@@ -36,6 +36,7 @@ const services: ServiceCardData[] = [
     title: "Syns på Google (SEO)",
     description:
       "Vi hjälper dig att klättra i sökresultaten så att lokala kunder hittar just ditt företag före konkurrenternas.",
+    href: "/seo",
   },
   {
     icon: faMagnifyingGlassChart,
