@@ -29,6 +29,7 @@ const services: ServiceCardData[] = [
     title: "Automatisk Kundtjänst / Chatbot",
     description:
       "Installera en smart AI-chattbot som svarar på dina kunders frågor dygnet runt, direkt på hemsidan.",
+    href: "/chatbot",
   },
   {
     icon: faGoogle,
