@@ -1,26 +1,26 @@
 "use client";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRobot, faCode } from "@/lib/icons";
+import { faGear, faCar } from "@/lib/icons";
 
 interface ServicePickerProps {
   selected: string | null;
-  onSelect: (service: "ai-consultation" | "web-development") => void;
+  onSelect: (service: "tire-service" | "car-repair") => void;
 }
 
 const SERVICES = [
   {
-    id: "ai-consultation" as const,
-    icon: faRobot,
-    title: "AI-konsultation",
-    description: "Diskutera hur AI kan effektivisera ditt företag. Vi går igenom möjligheter, verktyg och en konkret plan.",
-    duration: "60 min",
+    id: "tire-service" as const,
+    icon: faGear,
+    title: "Däckbyte & Däckförvaring",
+    description: "Boka tid för däckbyte, balansering eller säsongsförvaring. Vi har alla märken i lager.",
+    duration: "45 min",
   },
   {
-    id: "web-development" as const,
-    icon: faCode,
-    title: "Webbutveckling",
-    description: "Gratis rådgivning om din hemsida — ny eller befintlig. Vi tittar på design, prestanda och SEO.",
+    id: "car-repair" as const,
+    icon: faCar,
+    title: "Bilverkstad & Service",
+    description: "Service, besiktningsförberedelse, bromsarbete och övrig reparation. Vi fixar det mesta.",
     duration: "60 min",
   },
 ];

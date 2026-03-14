@@ -22,6 +22,7 @@ const services: ServiceCardData[] = [
     title: "Slipp Telefonkrångel – Boka Online",
     description:
       "Låt kunderna boka tid direkt på nätet. Vi integrerar smidiga bokningssystem så du slipper sitta i telefon.",
+    href: "/bokning-online",
   },
   {
     icon: faRobot,

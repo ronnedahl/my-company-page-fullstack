@@ -4,8 +4,8 @@ import Footer from "@/components/layout/Footer";
 import BookingWizard from "@/components/booking/BookingWizard";
 
 export const metadata: Metadata = {
-  title: "Boka Rådgivning | Växtkraft Webb",
-  description: "Boka en kostnadsfri rådgivning med Växtkraft Webb. Välj mellan AI-konsultation och webbutveckling.",
+  title: "Demo Bokningssystem | Växtkraft Webb",
+  description: "Se hur ett smart bokningssystem fungerar i praktiken. Testa att boka en tid hos en exempelverkstad.",
 };
 
 export default function BookingPage() {
@@ -15,10 +15,10 @@ export default function BookingPage() {
       <main className="max-w-[1200px] mx-auto px-5 py-10 min-h-[70vh]">
         <div className="text-center mb-10">
           <h1 className="text-2xl md:text-4xl font-semibold mb-3">
-            Boka Gratis Rådgivning
+            Demo Bokningssystem
           </h1>
           <p className="text-gray-text max-w-lg mx-auto">
-            Välj en tjänst, ett datum och en tid som passar dig. Vi återkommer med en bekräftelse.
+            Så här enkelt kan det se ut för dina kunder. Testa att boka en tid hos en exempelverkstad.
           </p>
         </div>
         <BookingWizard />

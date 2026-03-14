@@ -65,7 +65,7 @@ export interface CreateBookingRequest {
   client_name: string;
   client_email: string;
   client_phone?: string;
-  service_type: "ai-consultation" | "web-development";
+  service_type: "tire-service" | "car-repair";
   description?: string;
 }
 
