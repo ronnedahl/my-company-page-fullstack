@@ -22,24 +22,28 @@ const services: ServiceCardData[] = [
     title: "Slipp Telefonkrångel – Boka Online",
     description:
       "Låt kunderna boka tid direkt på nätet. Vi integrerar smidiga bokningssystem så du slipper sitta i telefon.",
+    href: "/bokning-online",
   },
   {
     icon: faRobot,
     title: "Automatisk Kundtjänst / Chatbot",
     description:
       "Installera en smart AI-chattbot som svarar på dina kunders frågor dygnet runt, direkt på hemsidan.",
+    href: "/chatbot",
   },
   {
     icon: faGoogle,
     title: "Syns på Google (SEO)",
     description:
       "Vi hjälper dig att klättra i sökresultaten så att lokala kunder hittar just ditt företag före konkurrenternas.",
+    href: "/seo",
   },
   {
     icon: faMagnifyingGlassChart,
     title: "Snabbanalys & Åtgärd",
     description:
       "Vi gör en blixtsnabb analys av din nuvarande sida och ger förslag på direkta förbättringar för ökad försäljning.",
+    href: "/snabbanalys",
   },
   {
     icon: faBolt,

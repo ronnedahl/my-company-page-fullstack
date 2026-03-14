@@ -13,14 +13,14 @@ import BookingConfirmation from "./BookingConfirmation";
 
 export default function BookingWizard() {
   const [step, setStep] = useState(1);
-  const [service, setService] = useState<"ai-consultation" | "web-development" | null>(null);
+  const [service, setService] = useState<"tire-service" | "car-repair" | null>(null);
   const [date, setDate] = useState<Date | undefined>();
   const [time, setTime] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [confirmation, setConfirmation] = useState<BookingConfirmationType | null>(null);
 
-  const handleServiceSelect = (s: "ai-consultation" | "web-development") => {
+  const handleServiceSelect = (s: "tire-service" | "car-repair") => {
     setService(s);
     setStep(2);
   };
