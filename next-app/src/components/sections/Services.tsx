@@ -43,6 +43,7 @@ const services: ServiceCardData[] = [
     title: "Snabbanalys & Åtgärd",
     description:
       "Vi gör en blixtsnabb analys av din nuvarande sida och ger förslag på direkta förbättringar för ökad försäljning.",
+    href: "/snabbanalys",
   },
   {
     icon: faBolt,
