@@ -8,7 +8,7 @@ import FeaturesSection from "@/components/webbutveckling/FeaturesSection";
 import CtaSection from "@/components/webbutveckling/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Webbutveckling & Redesign - Växtkraft Webb",
+  title: "Webbutveckling & Redesign - Webbkraft",
   description:
     "Vi bygger moderna webbplatser med hjälp av AI utan att tappa din Google-ranking.",
 };

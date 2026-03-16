@@ -4,7 +4,7 @@ import Footer from "@/components/layout/Footer";
 import BookingWizard from "@/components/booking/BookingWizard";
 
 export const metadata: Metadata = {
-  title: "Demo Bokningssystem | Växtkraft Webb",
+  title: "Demo Bokningssystem | Webbkraft",
   description: "Se hur ett smart bokningssystem fungerar i praktiken. Testa att boka en tid hos en exempelverkstad.",
 };
 

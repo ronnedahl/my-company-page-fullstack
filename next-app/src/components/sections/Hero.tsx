@@ -40,8 +40,8 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
-          <ButtonPrimary href="/booking" icon={faArrowRight}>
-            Boka Gratis Rådgivning
+          <ButtonPrimary href="#contact" icon={faArrowRight}>
+            Gratis Analys Av Din Sida
           </ButtonPrimary>
           <ButtonOutline href="#pricing" icon={faArrowDown}>
             Se Våra Paket

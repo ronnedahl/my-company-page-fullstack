@@ -38,7 +38,7 @@ const features: FeatureData[] = [
     icon: faMobileScreen,
     title: "Mobiloptimering",
     description:
-      "Google rankar mobilsidor först. Vi ser till att din sida presterar perfekt på alla enheter.",
+      "Google prioriterar mobilanpassade sidor. Vi ser till att din sida fungerar perfekt på alla enheter.",
   },
   {
     icon: faPenRuler,

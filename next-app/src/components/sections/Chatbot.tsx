@@ -17,7 +17,7 @@ export default function Chatbot() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "bot",
-      text: "Hej! Välkommen till Växtkraft Webb. Hur kan jag hjälpa dig idag?",
+      text: "Hej! Välkommen till Webbkraft. Hur kan jag hjälpa dig idag?",
     },
     {
       role: "bot",
@@ -56,7 +56,7 @@ export default function Chatbot() {
         ...prev,
         {
           role: "bot",
-          text: "Ursäkta, jag kunde inte nå servern just nu. Försök igen om en stund eller kontakta oss på hej@vaxtkraftwebb.se.",
+          text: "Ursäkta, jag kunde inte nå servern just nu. Försök igen om en stund eller kontakta oss på hej@webbkraft.se.",
         },
       ]);
     } finally {

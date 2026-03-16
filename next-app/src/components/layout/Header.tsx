@@ -20,7 +20,7 @@ export default function Header() {
           <a href="#home" className="flex items-center">
             <Image
               src="/images/logo-webb.png"
-              alt="Växtkraft Webb"
+              alt="Webbkraft"
               width={350}
               height={120}
               className="h-24 md:h-30 w-auto logo-auto"

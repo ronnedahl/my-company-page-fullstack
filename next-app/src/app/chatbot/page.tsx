@@ -8,7 +8,7 @@ import FeaturesSection from "@/components/chatbot/FeaturesSection";
 import CtaSection from "@/components/chatbot/CtaSection";
 
 export const metadata: Metadata = {
-  title: "AI-Chatbot & Kundtjänst - Växtkraft Webb",
+  title: "AI-Chatbot & Kundtjänst - Webbkraft",
   description:
     "Installera en smart AI-chattbot som svarar på dina kunders frågor dygnet runt, direkt på hemsidan.",
 };
