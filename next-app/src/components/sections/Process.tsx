@@ -5,7 +5,7 @@ const steps = [
     step: 1,
     title: "Syftet med din hemsida",
     imageUrl:
-      "/images/question.png",
+      "/images/question.webp",
     imageAlt: "Frågetecken och planering",
     subtitle: "Vad är syftet med din hemsida?",
     description:
@@ -15,7 +15,7 @@ const steps = [
     step: 2,
     title: "UI / UX - Design",
     imageUrl:
-      "/images/design-web.png",
+      "/images/design-web.webp",
     imageAlt: "Webbdesign på laptop",
     subtitle: "Designen är hjärtat i hemsidan",
     description:
@@ -25,7 +25,7 @@ const steps = [
     step: 3,
     title: "Programmering",
     imageUrl:
-      "/images/code.jpg",
+      "/images/code.webp",
     imageAlt: "Kod på en skärm",
     subtitle: "Programmering och utveckling",
     description:
@@ -34,7 +34,7 @@ const steps = [
   {
     step: 4,
     title: "Ny eller befintlig domän",
-    imageUrl: "/images/domain.jpg",
+    imageUrl: "/images/domain.webp",
     imageAlt: "HTTPS och domännamn",
     subtitle: "Ny eller befintlig domän",
     description:
@@ -44,7 +44,7 @@ const steps = [
     step: 5,
     title: "Lansering online",
     imageUrl:
-      "/images/live.jpg",
+      "/images/live.webp",
     imageAlt: "Google på en surfplatta",
     subtitle: "Nu är det dags att gå live",
     description:
@@ -53,7 +53,7 @@ const steps = [
   {
     step: 6,
     title: "Grattis - Du gjorde det",
-    imageUrl: "/images/thumbs-up.jpg",
+    imageUrl: "/images/thumbs-up.webp",
     imageAlt: "Glad person vid laptop",
     subtitle: "Din hemsida är nu färdig",
     description:
