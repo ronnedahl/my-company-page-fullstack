@@ -50,6 +50,7 @@ const services: ServiceCardData[] = [
     title: "Hastighet & Prestanda",
     description:
       "Ingen gillar långsamma sidor. Vi optimerar din kod och dina bilder så att sidan laddar blixtsnabbt.",
+    href: "/prestanda",
   },
 ];
 
