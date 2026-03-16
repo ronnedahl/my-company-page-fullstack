@@ -3,7 +3,7 @@ export default function About() {
     <section id="about" className="py-10 sm:py-20">
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-12 mb-15">
-          <h2 className="text-[1.8rem] md:text-[2.5rem] font-semibold">Om Oss</h2>
+          <h2 className="text-[1.5rem] md:text-[2.5rem] font-semibold">Om Oss</h2>
           <div className="text-gray-text">
             <p className="mb-5">
               Vi är en nystartad byrå med ett tydligt mål: att ge lokala företag

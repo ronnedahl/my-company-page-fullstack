@@ -13,7 +13,7 @@ export default function ServiceCard({
       <div className="text-accent-green w-12 h-12 flex items-center justify-center rounded-lg mb-5">
         <FontAwesomeIcon icon={icon} className="text-[28px]" />
       </div>
-      <h3 className="text-[1.2rem] font-semibold mb-2.5">{title}</h3>
+      <h3 className="text-[1.25rem] font-semibold mb-2.5">{title}</h3>
       <p className="text-[0.85rem] text-gray-text mb-5 leading-relaxed">
         {description}
       </p>

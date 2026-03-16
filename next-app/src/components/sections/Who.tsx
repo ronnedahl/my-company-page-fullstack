@@ -16,7 +16,7 @@ export default function Who() {
             />
           </div>
           <div>
-            <h2 className="text-[1.8rem] md:text-[2.5rem] font-semibold mb-5">
+            <h2 className="text-[1.5rem] md:text-[2.5rem] font-semibold mb-5">
               Vem står bakom Webbkraft?
             </h2>
             <p className="text-gray-text mb-5">

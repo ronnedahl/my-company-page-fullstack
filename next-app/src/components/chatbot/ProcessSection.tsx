@@ -33,7 +33,7 @@ export default function ProcessSection() {
     <section className="bg-card-bg py-20 my-15 rounded-[30px]">
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="text-center mb-15">
-          <h2 className="text-[1.8rem] md:text-[2.5rem] font-semibold mb-4">
+          <h2 className="text-[1.5rem] md:text-[2.5rem] font-semibold mb-4">
             Från idé till intelligent kundtjänst
           </h2>
           <p className="max-w-[600px] mx-auto text-gray-text">

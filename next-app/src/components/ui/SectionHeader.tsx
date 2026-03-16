@@ -11,7 +11,7 @@ export default function SectionHeader({
 }: SectionHeaderProps) {
   return (
     <div className={`text-center mb-12 ${className}`}>
-      <h2 className="text-[1.8rem] md:text-[2.5rem] font-semibold mb-2.5">
+      <h2 className="text-[1.5rem] md:text-[2.5rem] font-semibold mb-2.5">
         {title}
       </h2>
       {subtitle && (

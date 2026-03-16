@@ -28,7 +28,7 @@ export default function PricingCard({
           {badge}
         </span>
       )}
-      <h3 className="text-[1.3rem] font-semibold mb-4">{name}</h3>
+      <h3 className="text-[1.25rem] font-semibold mb-4">{name}</h3>
       <div className="text-[2.8rem] font-extrabold mb-6">
         {price} <span className="text-base font-medium">kr</span>
       </div>

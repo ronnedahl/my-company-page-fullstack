@@ -15,7 +15,7 @@ export default function IntroSection() {
             />
           </div>
           <div>
-            <h2 className="text-[1.6rem] md:text-[2.2rem] font-semibold mb-5 text-accent-green">
+            <h2 className="text-[1.5rem] md:text-[2.2rem] font-semibold mb-5 text-accent-green">
               Vi moderniserar utan risk
             </h2>
             <p className="text-gray-text mb-5">
