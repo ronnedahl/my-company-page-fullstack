@@ -8,8 +8,8 @@ const caseStudies: CaseStudyData[] = [
     description:
       "Utan en professionell hemsida missar du majoriteten av dina potentiella kunder redan innan de bestämt sig.",
     imageUrl:
-      "/images/pic-three.webp",
-    imageAlt: "Person som söker på mobilen",
+      "/images/lokal-soksynlighet-google-karlstad.webp",
+    imageAlt: "Hand håller mobil med Google Maps och lokal söksynlighet för företag i Karlstad",
     statValue: "88%",
     statLabel: "Söker Online Först",
     statPosition: "left",
@@ -20,8 +20,8 @@ const caseStudies: CaseStudyData[] = [
     description:
       "Hastighet avgör om besökaren stannar eller lämnar. En snabb hemsida behåller fler kunder och rankas högre på Google.",
     imageUrl:
-      "/images/pic-two.webp",
-    imageAlt: "Snabb webbupplevelse",
+      "/images/snabb-hemsida-laddtid-karlstad.webp",
+    imageAlt: "Laptop med hastighetsmätare som visar snabb laddtid för hemsidor i Karlstad",
     statValue: "50%",
     statLabel: "Lägre Avvisning",
     statPosition: "bottom-right",
@@ -33,8 +33,8 @@ const caseStudies: CaseStudyData[] = [
     description:
       "Med ett smart kontaktformulär eller bokningssystem kan du fånga kunden direkt — även utanför kontorstid.",
     imageUrl:
-      "/images/pic-one.webp",
-    imageAlt: "Snabb kundkontakt",
+      "/images/bokningssystem-foretag-karlstad.webp",
+    imageAlt: "Laptop med bokningssystem och kaffekopp för företag i Karlstad",
     statValue: "9x",
     statLabel: "Högre Chans",
     statPosition: "left",

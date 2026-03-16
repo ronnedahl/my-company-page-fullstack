@@ -4,8 +4,11 @@ import Footer from "@/components/layout/Footer";
 import BookingWizard from "@/components/booking/BookingWizard";
 
 export const metadata: Metadata = {
-  title: "Demo Bokningssystem | Webbkraft",
+  title: "Demo Bokningssystem",
   description: "Se hur ett smart bokningssystem fungerar i praktiken. Testa att boka en tid hos en exempelverkstad.",
+  openGraph: {
+    description: "Se hur ett smart bokningssystem fungerar i praktiken. Testa att boka en tid hos en exempelverkstad.",
+  },
 };
 
 export default function BookingPage() {

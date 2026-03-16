@@ -7,8 +7,8 @@ export default function Hero() {
   return (
     <section id="home" className="relative h-[85vh] min-h-[500px] flex items-end">
       <Image
-        src="/images/karlstad-city.webp"
-        alt="Karlstad"
+        src="/images/webbyrå-karlstad-stad-flygbild.webp"
+        alt="Webbyrå i Karlstad – lokal webbutvecklare i Karlstad stad"
         fill
         className="object-cover"
         priority

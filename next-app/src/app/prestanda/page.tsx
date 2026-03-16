@@ -8,9 +8,13 @@ import FeaturesSection from "@/components/prestanda/FeaturesSection";
 import CtaSection from "@/components/prestanda/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Hastighet & Prestanda - Webbkraft",
+  title: "Hastighet & Prestanda",
   description:
     "Vi optimerar din hemsida för blixtsnabba laddtider som ger bättre Google-ranking och nöjdare besökare.",
+  openGraph: {
+    description:
+      "Vi optimerar din hemsida för blixtsnabba laddtider som ger bättre Google-ranking och nöjdare besökare.",
+  },
 };
 
 export default function PrestandaPage() {

@@ -8,9 +8,13 @@ import FeaturesSection from "@/components/webbutveckling/FeaturesSection";
 import CtaSection from "@/components/webbutveckling/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Webbutveckling & Redesign - Webbkraft",
+  title: "Webbutveckling & Redesign",
   description:
     "Vi bygger moderna webbplatser med hjälp av AI utan att tappa din Google-ranking.",
+  openGraph: {
+    description:
+      "Vi bygger moderna webbplatser med hjälp av AI utan att tappa din Google-ranking.",
+  },
 };
 
 export default function WebbutvecklingPage() {
