@@ -8,7 +8,7 @@ import FeaturesSection from "@/components/prestanda/FeaturesSection";
 import CtaSection from "@/components/prestanda/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Hastighet & Prestanda - Växtkraft Webb",
+  title: "Hastighet & Prestanda - Webbkraft",
   description:
     "Vi optimerar din hemsida för blixtsnabba laddtider som ger bättre Google-ranking och nöjdare besökare.",
 };

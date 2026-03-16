@@ -16,7 +16,7 @@ export default function IntroSection() {
           </div>
           <div>
             <h2 className="text-[1.5rem] md:text-[2.2rem] font-semibold mb-5 text-accent-green">
-              Vi moderniserar utan risk
+              Ny hemsida – utan att tappa er plats på Google
             </h2>
             <p className="text-gray-text mb-5">
               Många företag drar sig för att göra om sin gamla hemsida av rädsla

@@ -33,12 +33,12 @@ const steps = [
   },
   {
     step: 4,
-    title: "Dags att köpa en domän",
+    title: "Ny eller befintlig domän",
     imageUrl: "/images/domain.jpg",
     imageAlt: "HTTPS och domännamn",
-    subtitle: "Vad är en domän?",
+    subtitle: "Ny eller befintlig domän",
     description:
-      "För att din hemsida ska synas online behöver du en domän.",
+      "Har företaget redan en domän? Perfekt! Vi bygger din nya hemsida i en dold testmiljö. Din nuvarande sida är live och rullar på som vanligt tills vi är redo att byta. Saknar ni domän hjälper vi er givetvis att registrera en.",
   },
   {
     step: 5,

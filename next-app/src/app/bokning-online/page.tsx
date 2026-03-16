@@ -8,7 +8,7 @@ import FeaturesSection from "@/components/bokning-online/FeaturesSection";
 import CtaSection from "@/components/bokning-online/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Bokningssystem Online - Växtkraft Webb",
+  title: "Bokningssystem Online - Webbkraft",
   description:
     "Låt dina kunder boka tid direkt på nätet. Smidiga bokningssystem som sparar tid och ökar försäljningen.",
 };

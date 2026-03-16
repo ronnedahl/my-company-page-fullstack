@@ -11,10 +11,10 @@ export default function ServiceHeader() {
           <Link href="/" className="flex items-center">
             <Image
               src="/images/logo-webb.png"
-              alt="Växtkraft Webb"
-              width={150}
-              height={40}
-              className="h-8 md:h-10 w-auto logo-auto"
+              alt="Webbkraft"
+              width={350}
+              height={120}
+              className="h-24 md:h-30 w-auto logo-auto"
               priority
             />
           </Link>

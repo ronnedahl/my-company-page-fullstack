@@ -29,7 +29,7 @@ const caseStudies: CaseStudyData[] = [
   },
   {
     tag: "Snabb Respons",
-    title: "Företag som svarar på leads inom 5 minuter har 9 gånger högre chans att få kunden",
+    title: "Företag som svarar inom 5 minuter har 9 gånger högre chans att få kunden",
     description:
       "Med ett smart kontaktformulär eller bokningssystem kan du fånga kunden direkt — även utanför kontorstid.",
     imageUrl:

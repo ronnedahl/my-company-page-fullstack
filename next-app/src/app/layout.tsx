@@ -21,7 +21,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Växtkraft Webb - Modern Webbutveckling",
+  title: "Webbkraft - Modern Webbutveckling",
   description:
     "Vi hjälper lokala företag i Karlstad att växa digitalt med moderna hemsidor och AI-teknik.",
 };

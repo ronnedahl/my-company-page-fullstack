@@ -22,8 +22,8 @@ export default function Home() {
         <Services />
         <Who />
         <Work />
-        <Pricing />
         <Process />
+        <Pricing />
         <Contact />
       </main>
       <Footer />

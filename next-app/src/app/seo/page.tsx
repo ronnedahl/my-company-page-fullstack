@@ -8,7 +8,7 @@ import FeaturesSection from "@/components/seo/FeaturesSection";
 import CtaSection from "@/components/seo/CtaSection";
 
 export const metadata: Metadata = {
-  title: "SEO & Synlighet på Google - Växtkraft Webb",
+  title: "SEO & Synlighet på Google - Webbkraft",
   description:
     "Vi hjälper dig att klättra i sökresultaten så att lokala kunder hittar just ditt företag före konkurrenternas.",
 };
