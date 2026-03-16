@@ -9,7 +9,7 @@ export default function Who() {
         <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-12 items-center text-center md:text-left">
           <div className="relative aspect-square max-w-[300px] md:max-w-none mx-auto md:mx-0">
             <Image
-              src="/images/peter-smile.png"
+              src="/images/peter-smile.webp"
               alt="Grundare av Webbkraft"
               fill
               className="object-cover rounded-[20px] brightness-50 object-[center_25%]"

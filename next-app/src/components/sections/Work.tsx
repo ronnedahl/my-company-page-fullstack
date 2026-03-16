@@ -8,7 +8,7 @@ const caseStudies: CaseStudyData[] = [
     description:
       "Utan en professionell hemsida missar du majoriteten av dina potentiella kunder redan innan de bestämt sig.",
     imageUrl:
-      "/images/pic-three.png",
+      "/images/pic-three.webp",
     imageAlt: "Person som söker på mobilen",
     statValue: "88%",
     statLabel: "Söker Online Först",
@@ -20,7 +20,7 @@ const caseStudies: CaseStudyData[] = [
     description:
       "Hastighet avgör om besökaren stannar eller lämnar. En snabb hemsida behåller fler kunder och rankas högre på Google.",
     imageUrl:
-      "/images/pic-two.png",
+      "/images/pic-two.webp",
     imageAlt: "Snabb webbupplevelse",
     statValue: "50%",
     statLabel: "Lägre Avvisning",
@@ -33,7 +33,7 @@ const caseStudies: CaseStudyData[] = [
     description:
       "Med ett smart kontaktformulär eller bokningssystem kan du fånga kunden direkt — även utanför kontorstid.",
     imageUrl:
-      "/images/pic-one.png",
+      "/images/pic-one.webp",
     imageAlt: "Snabb kundkontakt",
     statValue: "9x",
     statLabel: "Högre Chans",

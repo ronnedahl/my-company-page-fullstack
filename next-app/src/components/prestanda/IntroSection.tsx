@@ -7,7 +7,7 @@ export default function IntroSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-15 items-center">
           <div className="relative rounded-[20px] overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.1)]">
             <Image
-              src="/images/speed-site.jpg"
+              src="/images/speed-site.webp"
               alt="Snabb server och prestanda"
               width={600}
               height={400}
