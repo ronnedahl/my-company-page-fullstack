@@ -14,7 +14,7 @@ export default function Contact() {
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-15 items-start">
           <div>
-            <h2 className="text-[1.8rem] md:text-[2.5rem] font-semibold mb-4">
+            <h2 className="text-[1.5rem] md:text-[2.5rem] font-semibold mb-4">
               Kontakta Oss
             </h2>
             <p className="text-gray-text mb-8">

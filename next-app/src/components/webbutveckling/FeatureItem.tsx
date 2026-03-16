@@ -7,7 +7,7 @@ export default function FeatureItem({ icon, title, description }: FeatureData) {
       <div className="text-accent-green text-2xl mb-4">
         <FontAwesomeIcon icon={icon} />
       </div>
-      <h4 className="text-[1.1rem] font-semibold mb-2.5">{title}</h4>
+      <h4 className="text-[1.125rem] font-semibold mb-2.5">{title}</h4>
       <p className="text-[0.9rem] text-gray-text">{description}</p>
     </div>
   );

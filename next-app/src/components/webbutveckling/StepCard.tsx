@@ -6,7 +6,7 @@ export default function StepCard({ number, title, description }: StepData) {
       <div className="text-[3rem] font-extrabold text-[#E8D6B5] leading-none mb-2.5">
         {number}
       </div>
-      <h3 className="text-[1.2rem] font-semibold mb-2.5">{title}</h3>
+      <h3 className="text-[1.25rem] font-semibold mb-2.5">{title}</h3>
       <p className="text-[0.9rem] text-gray-text">{description}</p>
     </div>
   );

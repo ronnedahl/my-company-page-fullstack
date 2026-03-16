@@ -47,7 +47,7 @@ export default function Work() {
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-15 gap-5">
           <div>
-            <h2 className="text-[1.8rem] md:text-[2.5rem] font-semibold mb-2.5">
+            <h2 className="text-[1.5rem] md:text-[2.5rem] font-semibold mb-2.5">
               Visste du att...
             </h2>
             <p className="text-gray-text max-w-[400px]">

@@ -5,7 +5,7 @@ export default function ServiceHero() {
         <span className="bg-[#E8D6B5] text-accent-green px-4 py-1 rounded-[20px] text-[0.85rem] font-semibold uppercase tracking-wider inline-block mb-5">
           AI-Chatbot
         </span>
-        <h1 className="text-[1.3rem] sm:text-[2.2rem] md:text-[3rem] font-semibold mb-6 leading-tight">
+        <h1 className="text-[2rem] sm:text-[2.2rem] md:text-[3rem] font-semibold mb-6 leading-tight">
           Automatisk Kundtjänst <br />
           Som Aldrig Sover
         </h1>

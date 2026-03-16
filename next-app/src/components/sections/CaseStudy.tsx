@@ -27,7 +27,7 @@ export default function CaseStudy({
         <span className="bg-card-bg px-4 py-1 rounded-[20px] text-[0.75rem] font-medium uppercase tracking-[0.05em] inline-block mb-5 text-accent-green">
           {tag}
         </span>
-        <h3 className="text-[1.2rem] md:text-[2rem] font-semibold mb-4">
+        <h3 className="text-[1.25rem] md:text-[2rem] font-semibold mb-4">
           {title}
         </h3>
         <p className="text-gray-text mb-8">{description}</p>

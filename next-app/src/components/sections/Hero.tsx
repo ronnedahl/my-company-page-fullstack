@@ -29,7 +29,7 @@ export default function Hero() {
           Din Lokala Partner
         </div>
 
-        <h1 className="text-3xl md:text-[3.5rem] font-semibold mb-5 tracking-tight leading-tight max-w-[700px] text-white">
+        <h1 className="text-[2rem] md:text-[3.5rem] font-semibold mb-5 tracking-tight leading-tight max-w-[700px] text-white">
           Vi hjälper Karlstads företag att växa digitalt
         </h1>
 

@@ -53,7 +53,7 @@ export default function FeaturesSection() {
     <section className="py-15">
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="text-center mb-10">
-          <h2 className="text-[1.8rem] md:text-[2.2rem] font-semibold mb-5 text-accent-green">
+          <h2 className="text-[1.5rem] md:text-[2.2rem] font-semibold mb-5 text-accent-green">
             Allt du behöver i ett bokningssystem
           </h2>
           <p className="text-gray-text">
