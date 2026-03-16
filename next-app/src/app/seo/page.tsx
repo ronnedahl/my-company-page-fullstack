@@ -8,9 +8,13 @@ import FeaturesSection from "@/components/seo/FeaturesSection";
 import CtaSection from "@/components/seo/CtaSection";
 
 export const metadata: Metadata = {
-  title: "SEO & Synlighet på Google - Webbkraft",
+  title: "SEO & Synlighet på Google",
   description:
     "Vi hjälper dig att klättra i sökresultaten så att lokala kunder hittar just ditt företag före konkurrenternas.",
+  openGraph: {
+    description:
+      "Vi hjälper dig att klättra i sökresultaten så att lokala kunder hittar just ditt företag före konkurrenternas.",
+  },
 };
 
 export default function SeoPage() {

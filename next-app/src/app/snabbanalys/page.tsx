@@ -8,9 +8,13 @@ import FeaturesSection from "@/components/snabbanalys/FeaturesSection";
 import CtaSection from "@/components/snabbanalys/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Snabbanalys & Åtgärd - Webbkraft",
+  title: "Snabbanalys & Åtgärd",
   description:
     "Vi gör en blixtsnabb analys av din nuvarande sida och ger förslag på direkta förbättringar för ökad försäljning.",
+  openGraph: {
+    description:
+      "Vi gör en blixtsnabb analys av din nuvarande sida och ger förslag på direkta förbättringar för ökad försäljning.",
+  },
 };
 
 export default function SnabbanalysPage() {

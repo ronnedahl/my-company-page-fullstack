@@ -8,9 +8,13 @@ import FeaturesSection from "@/components/chatbot/FeaturesSection";
 import CtaSection from "@/components/chatbot/CtaSection";
 
 export const metadata: Metadata = {
-  title: "AI-Chatbot & Kundtjänst - Webbkraft",
+  title: "AI-Chatbot & Kundtjänst",
   description:
     "Installera en smart AI-chattbot som svarar på dina kunders frågor dygnet runt, direkt på hemsidan.",
+  openGraph: {
+    description:
+      "Installera en smart AI-chattbot som svarar på dina kunders frågor dygnet runt, direkt på hemsidan.",
+  },
 };
 
 export default function ChatbotPage() {

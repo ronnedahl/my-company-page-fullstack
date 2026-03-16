@@ -7,8 +7,8 @@ export default function IntroSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-15 items-center">
           <div className="relative rounded-[20px] overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.1)]">
             <Image
-              src="https://images.unsplash.com/photo-1556745757-8d76bdb6984b?q=80&w=2066&auto=format&fit=crop"
-              alt="Kalender och bokningssystem"
+              src="/images/onlinebokningssystem-foretag-karlstad.webp"
+              alt="Händer vid kassaterminal med onlinebokningssystem för företag i Karlstad"
               width={600}
               height={400}
               className="w-full h-auto rounded-[20px]"

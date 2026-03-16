@@ -3,7 +3,7 @@ import { faEnvelope, faPhone, faLocationDot } from "@/lib/icons";
 import ContactForm from "./ContactForm";
 
 const contactDetails = [
-  { icon: faEnvelope, text: "dev.peter.ai@gmail.com" },
+  { icon: faEnvelope, text: "info@webbkraft.net" },
   { icon: faPhone, text: "070-489 30 20" },
   { icon: faLocationDot, text: "Karlstad, Sverige" },
 ];

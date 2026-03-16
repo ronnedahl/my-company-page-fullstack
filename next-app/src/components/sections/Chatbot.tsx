@@ -56,7 +56,7 @@ export default function Chatbot() {
         ...prev,
         {
           role: "bot",
-          text: "Ursäkta, jag kunde inte nå servern just nu. Försök igen om en stund eller kontakta oss på hej@webbkraft.se.",
+          text: "Ursäkta, jag kunde inte nå servern just nu. Försök igen om en stund eller kontakta oss på info@webbkraft.net.",
         },
       ]);
     } finally {
@@ -78,8 +78,8 @@ export default function Chatbot() {
         className="fixed bottom-5 right-5 md:bottom-8 md:right-8 z-[999] w-15 h-15 rounded-full overflow-hidden cursor-pointer shadow-[0_5px_20px_rgba(0,0,0,0.3)] transition-transform duration-300 hover:scale-110 border-2 border-accent-green"
       >
         <Image
-          src="/images/peter-chatbot.webp"
-          alt="Chatta med Peter"
+          src="/images/peter-ai-chatbot-karlstad.webp"
+          alt="Peter – AI och chatbot-utvecklare i Karlstad"
           width={60}
           height={60}
           className="object-cover w-full h-full"

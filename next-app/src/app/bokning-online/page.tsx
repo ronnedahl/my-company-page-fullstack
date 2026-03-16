@@ -8,9 +8,13 @@ import FeaturesSection from "@/components/bokning-online/FeaturesSection";
 import CtaSection from "@/components/bokning-online/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Bokningssystem Online - Webbkraft",
+  title: "Bokningssystem Online",
   description:
     "Låt dina kunder boka tid direkt på nätet. Smidiga bokningssystem som sparar tid och ökar försäljningen.",
+  openGraph: {
+    description:
+      "Låt dina kunder boka tid direkt på nätet. Smidiga bokningssystem som sparar tid och ökar försäljningen.",
+  },
 };
 
 export default function BokningOnlinePage() {

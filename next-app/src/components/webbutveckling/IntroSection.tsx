@@ -7,8 +7,8 @@ export default function IntroSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-15 items-center">
           <div className="relative rounded-[20px] overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.1)]">
             <Image
-              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"
-              alt="Web analysis"
+              src="/images/laptop-analytics-webbutveckling-redesign-karlstad.webp"
+              alt="Laptop med analytics dashboard för webbutveckling och redesign av hemsida i Karlstad"
               width={600}
               height={400}
               className="w-full h-auto rounded-[20px]"
