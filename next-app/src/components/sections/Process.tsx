@@ -6,7 +6,7 @@ const steps = [
     title: "Syftet med din hemsida",
     imageUrl:
       "/images/question.webp",
-    imageAlt: "Frågetecken och planering",
+    imageAlt: "En man håller fram ett stort Frågetecken på vit bakgrund över ansiktet",
     subtitle: "Vad är syftet med din hemsida?",
     description:
       "Innan vi börjar är det viktigt att definiera vad hemsidan ska uppnå.",
@@ -16,7 +16,7 @@ const steps = [
     title: "UI / UX - Design",
     imageUrl:
       "/images/ui-ux-design-hemsida-karlstad.webp",
-    imageAlt: "UI och UX design för hemsidor i Karlstad",
+    imageAlt: "Surfplatta med wireframes och UI UX design för hemsidor i Karlstad",
     subtitle: "Designen är hjärtat i hemsidan",
     description:
       "– här tar vi fram funktion, användarvänlighet och estetik.",
@@ -26,7 +26,7 @@ const steps = [
     title: "Programmering",
     imageUrl:
       "/images/webbutveckling-programmering-karlstad.webp",
-    imageAlt: "Webbutveckling och programmering för företag i Karlstad",
+    imageAlt: "Skärm med kod och webbutveckling för företag i Karlstad",
     subtitle: "Programmering och utveckling",
     description:
       "När designen är på plats tar våra erfarna programmerare över.",
@@ -35,7 +35,7 @@ const steps = [
     step: 4,
     title: "Ny eller befintlig domän",
     imageUrl: "/images/https-doman-hemsida-karlstad.webp",
-    imageAlt: "Säker HTTPS domän för din hemsida i Karlstad",
+    imageAlt: "Mörk bakgrund med HTTPS text för säker domän och hemsida i Karlstad",
     subtitle: "Ny eller befintlig domän",
     description:
       "Har företaget redan en domän? Perfekt! Vi bygger din nya hemsida i en dold testmiljö. Din nuvarande sida är live och rullar på som vanligt tills vi är redo att byta. Saknar ni domän hjälper vi er givetvis att registrera en.",
@@ -45,7 +45,7 @@ const steps = [
     title: "Lansering online",
     imageUrl:
       "/images/lansering-hemsida-online-karlstad.webp",
-    imageAlt: "Lansering av hemsida online för företag i Karlstad",
+    imageAlt: "Mobil med Google sökning vid lansering av hemsida online i Karlstad",
     subtitle: "Nu är det dags att gå live",
     description:
       "När du har köpt din domän och vi har kopplat den till din hemsida är det dags att gå live.",
@@ -54,7 +54,7 @@ const steps = [
     step: 6,
     title: "Grattis - Du gjorde det",
     imageUrl: "/images/nojd-kund-hemsida-klar-karlstad.webp",
-    imageAlt: "Nöjd kund med färdig hemsida i Karlstad",
+    imageAlt: "Nöjd man ger tummen upp framför ritningar när hemsidan är klar i Karlstad",
     subtitle: "Din hemsida är nu färdig",
     description:
       "– och redo att användas för att representera ditt företag online.",

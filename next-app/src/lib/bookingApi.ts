@@ -1,6 +1,6 @@
 import type { AvailableSlotsResponse, CreateBookingRequest, BookingConfirmation } from "@/types";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
 
 export async function fetchAvailableSlots(date: string): Promise<AvailableSlotsResponse> {
   const res = await fetch(`${API_URL}/api/bookings/available-slots?date=${date}`);
