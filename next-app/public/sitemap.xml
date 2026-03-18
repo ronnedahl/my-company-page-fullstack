@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://webbkraft.net</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://webbkraft.net/webbutveckling</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://webbkraft.net/bokning-online</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://webbkraft.net/chatbot</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://webbkraft.net/seo</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://webbkraft.net/snabbanalys</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://webbkraft.net/prestanda</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://webbkraft.net/integritetspolicy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://webbkraft.net/villkor</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

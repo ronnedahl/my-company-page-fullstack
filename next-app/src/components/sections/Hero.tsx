@@ -8,7 +8,7 @@ export default function Hero() {
     <section id="home" className="relative h-[85vh] min-h-[500px] flex items-end">
       <Image
         src="/images/webbyrå-karlstad-stad-flygbild.webp"
-        alt="Webbyrå i Karlstad – lokal webbutvecklare i Karlstad stad"
+        alt="Flygbild över Karlstad stad med älven och domkyrkan"
         fill
         className="object-cover"
         priority
