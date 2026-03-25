@@ -53,10 +53,6 @@
   }
 }
 
-/* Logo filter for dark background */
-.logo-auto {
-  filter: brightness(0) invert(1);
-}
 
 /* react-day-picker theme override */
 .rdp-root {

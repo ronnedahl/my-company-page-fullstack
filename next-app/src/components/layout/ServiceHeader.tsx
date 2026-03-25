@@ -14,7 +14,7 @@ export default function ServiceHeader() {
               alt="Webbkraft"
               width={350}
               height={120}
-              className="h-24 md:h-30 w-auto logo-auto"
+              className="h-24 md:h-30 w-auto"
               priority
             />
           </Link>

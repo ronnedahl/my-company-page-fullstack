@@ -19,7 +19,7 @@ export default function Header() {
         <nav className="flex justify-between items-center">
           <a href="#home" className="flex items-center">
             <Image
-              src="/images/logo-webb.webp"
+              src="/images/logo-webb-dark.png"
               alt="Webbkraft"
               width={350}
               height={120}
