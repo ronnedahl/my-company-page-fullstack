@@ -14,6 +14,7 @@ const API_URL = process.env.NEXT_PUBLIC_CHAT_API_URL || "";
 
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolling, setIsScrolling] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "bot",
@@ -27,6 +28,21 @@ export default function Chatbot() {
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const scrollTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolling(true);
+      if (scrollTimeoutRef.current) clearTimeout(scrollTimeoutRef.current);
+      scrollTimeoutRef.current = setTimeout(() => setIsScrolling(false), 1500);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      if (scrollTimeoutRef.current) clearTimeout(scrollTimeoutRef.current);
+    };
+  }, []);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -84,7 +100,9 @@ export default function Chatbot() {
 
       <div
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-5 right-5 md:bottom-8 md:right-8 z-[999] w-15 h-15 rounded-full overflow-hidden cursor-pointer shadow-[0_5px_20px_rgba(0,0,0,0.3)] transition-transform duration-300 hover:scale-110 border-2 border-accent-green"
+        className={`fixed bottom-5 right-5 md:bottom-8 md:right-8 z-[999] w-15 h-15 rounded-full overflow-hidden cursor-pointer shadow-[0_5px_20px_rgba(0,0,0,0.3)] transition-all duration-300 hover:scale-110 border-2 border-accent-green ${
+          isScrolling && !isOpen ? "opacity-0 scale-75 pointer-events-none" : "opacity-100 scale-100"
+        }`}
       >
         <Image
           src="/images/peter-ai-chatbot-karlstad.webp"
