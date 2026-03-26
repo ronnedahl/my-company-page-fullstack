@@ -14,7 +14,7 @@ const navLinks = [
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-[1000] bg-bg/95 backdrop-blur-sm py-5">
+    <header className="sticky top-0 z-[1000] bg-bg/95 backdrop-blur-sm py-2 md:py-5">
       <div className="max-w-[1200px] mx-auto px-5">
         <nav className="flex justify-between items-center">
           <a href="#home" className="flex items-center">
@@ -23,7 +23,7 @@ export default function Header() {
               alt="Webbkraft"
               width={350}
               height={120}
-              className="h-24 md:h-30 w-auto logo-auto"
+              className="h-14 md:h-30 w-auto logo-auto"
               priority
             />
           </a>
