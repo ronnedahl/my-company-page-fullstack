@@ -11,7 +11,7 @@ logger = structlog.get_logger()
 class QueryAnalyzer:
     """Analyzes user queries to determine processing requirements."""
     
-    RETRIEVAL_REQUIRED_PROMPT = """You analyze queries for Växtkraft Webb's company chatbot.
+    RETRIEVAL_REQUIRED_PROMPT = """You analyze queries for Webbkraft's company chatbot.
 
     Return "yes" for ANY question about:
     - Services (hemsidor, bokningssystem, chatbotar, SEO, prestanda)

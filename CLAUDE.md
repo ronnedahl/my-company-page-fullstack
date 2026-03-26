@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Static marketing website for "Växtkraft Webb" — a Swedish web agency offering web development and AI services to local businesses. All content is in Swedish.
+Static marketing website for "Webbkraft" — a Swedish web agency offering web development and AI services to local businesses. All content is in Swedish.
 
 ## Architecture
 
@@ -39,4 +39,4 @@ npx serve .
 ## Known Structural Issues
 
 - `webbutveckling.html` duplicates CSS variables and base reset inline instead of importing `style.css`. Changes to the design system must be synced manually in both places.
-- The brand name is inconsistent: the `<title>` tags reference "Wookies" while visible page content uses "Växtkraft Webb".
+- The brand name is inconsistent: the `<title>` tags reference "Wookies" while visible page content uses "Webbkraft".

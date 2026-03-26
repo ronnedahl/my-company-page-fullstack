@@ -18,28 +18,28 @@ GREETING_PATTERNS = [
 
 QUICK_PATTERNS = {
     r'^(vad\s+heter\s+du|what.+name|vad\s+heter\s+ni)': {
-        'sv': "Vi heter Växtkraft Webb! Vi är en webbutvecklingsbyrå i Karlstad som hjälper lokala företag att växa digitalt. Vad kan vi hjälpa dig med?",
-        'en': "We're Växtkraft Webb! We're a web development agency in Karlstad helping local businesses grow digitally. How can we help you?"
+        'sv': "Vi heter Webbkraft! Vi är en webbutvecklingsbyrå i Karlstad som hjälper lokala företag att växa digitalt. Vad kan vi hjälpa dig med?",
+        'en': "We're Webbkraft! We're a web development agency in Karlstad helping local businesses grow digitally. How can we help you?"
     },
     r'^(hur\s+mår\s+du|how\s+are\s+you)': {
         'sv': "Tack för att du frågar! Vi är redo att hjälpa dig. Vill du veta mer om våra tjänster eller priser?",
         'en': "Thanks for asking! We're ready to help you. Would you like to know more about our services or pricing?"
     },
     r'^(vem\s+är\s+ni|vem\s+är\s+du|who\s+are\s+you)': {
-        'sv': "Vi är Växtkraft Webb, en nystartad webbyrå i Karlstad. Vi hjälper lokala företag med hemsidor, bokningssystem, AI-chatbotar och SEO. Vad vill du veta mer om?",
-        'en': "We're Växtkraft Webb, a web development agency in Karlstad. We help local businesses with websites, booking systems, AI chatbots, and SEO. What would you like to know more about?"
+        'sv': "Vi är Webbkraft, en nystartad webbyrå i Karlstad. Vi hjälper lokala företag med hemsidor, bokningssystem, AI-chatbotar och SEO. Vad vill du veta mer om?",
+        'en': "We're Webbkraft, a web development agency in Karlstad. We help local businesses with websites, booking systems, AI chatbots, and SEO. What would you like to know more about?"
     }
 }
 
 # Standard greeting responses
 GREETING_RESPONSES = {
     'sv': [
-        "Hej! Välkommen till Växtkraft Webb. Hur kan vi hjälpa dig idag? 😊",
+        "Hej! Välkommen till Webbkraft. Hur kan vi hjälpa dig idag? 😊",
         "Hallå! Vad kul att du tittar in! Fråga gärna om våra tjänster, priser eller hur vi kan hjälpa ditt företag.",
         "Hej där! Vi hjälper lokala företag att växa digitalt. Vad kan vi göra för dig?"
     ],
     'en': [
-        "Hello! Welcome to Växtkraft Webb. How can we help you today? 😊",
+        "Hello! Welcome to Webbkraft. How can we help you today? 😊",
         "Hi there! Feel free to ask about our services, pricing, or how we can help your business.",
         "Hello! We help local businesses grow digitally. What can we do for you?"
     ]
