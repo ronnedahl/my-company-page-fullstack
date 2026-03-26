@@ -6,7 +6,7 @@ export default function Who() {
   return (
     <section id="who" className="py-10 sm:py-20">
       <div className="max-w-[1200px] mx-auto px-5">
-        <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-12 items-center text-center md:text-left">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-12 items-center text-left">
           <div className="relative aspect-square max-w-[300px] md:max-w-none mx-auto md:mx-0">
             <Image
               src="/images/peter-webbutvecklare-karlstad.webp"
