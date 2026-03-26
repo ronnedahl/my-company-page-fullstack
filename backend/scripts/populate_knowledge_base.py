@@ -1,4 +1,4 @@
-"""Populate Firebase vector store with Växtkraft Webb company information."""
+"""Populate Firebase vector store with Webbkraft company information."""
 
 import asyncio
 import sys
@@ -12,17 +12,17 @@ logger = structlog.get_logger()
 
 
 async def populate_knowledge_base():
-    """Add Växtkraft Webb company information to the vector store."""
+    """Add Webbkraft company information to the vector store."""
 
     store = FirebaseVectorStore()
 
     documents = [
         {
-            "text": "Växtkraft Webb är en nystartad webbutvecklingsbyrå i Karlstad med ett tydligt mål: att ge lokala företag tillgång till samma avancerade teknik som de stora jättarna, men till en bråkdel av priset. Vi hjälper lokala företag i Karlstad att växa digitalt. Oavsett om du behöver fixa din nuvarande sida eller bygga nytt från grunden, gör vi det snabbare och billigare med hjälp av modern AI-teknik utan att tumma på kvaliteten.",
+            "text": "Webbkraft är en nystartad webbutvecklingsbyrå i Karlstad med ett tydligt mål: att ge lokala företag tillgång till samma avancerade teknik som de stora jättarna, men till en bråkdel av priset. Vi hjälper lokala företag i Karlstad att växa digitalt. Oavsett om du behöver fixa din nuvarande sida eller bygga nytt från grunden, gör vi det snabbare och billigare med hjälp av modern AI-teknik utan att tumma på kvaliteten.",
             "metadata": {"category": "company", "topic": "introduction"}
         },
         {
-            "text": "Växtkraft Webb erbjuder följande tjänster: 1) Ny eller befintlig hemsida – vi bygger nya moderna sidor eller fräschar upp din gamla, från enkla landningssidor till större plattformar. 2) Bokningssystem – låt kunderna boka tid direkt på nätet, vi integrerar smidiga bokningssystem. 3) Automatisk kundtjänst / AI-chatbot – en smart AI-chattbot som svarar på kunders frågor dygnet runt. 4) SEO – vi hjälper dig klättra i sökresultaten så lokala kunder hittar ditt företag. 5) Snabbanalys & åtgärd – blixtsnabb analys av din nuvarande sida med förslag på förbättringar. 6) Hastighet & prestanda – optimering av kod och bilder för blixtsnabb laddning.",
+            "text": "Webbkraft erbjuder följande tjänster: 1) Ny eller befintlig hemsida – vi bygger nya moderna sidor eller fräschar upp din gamla, från enkla landningssidor till större plattformar. 2) Bokningssystem – låt kunderna boka tid direkt på nätet, vi integrerar smidiga bokningssystem. 3) Automatisk kundtjänst / AI-chatbot – en smart AI-chattbot som svarar på kunders frågor dygnet runt. 4) SEO – vi hjälper dig klättra i sökresultaten så lokala kunder hittar ditt företag. 5) Snabbanalys & åtgärd – blixtsnabb analys av din nuvarande sida med förslag på förbättringar. 6) Hastighet & prestanda – optimering av kod och bilder för blixtsnabb laddning.",
             "metadata": {"category": "services", "topic": "overview"}
         },
         {
@@ -42,15 +42,15 @@ async def populate_knowledge_base():
             "metadata": {"category": "technology", "topic": "tech_stack"}
         },
         {
-            "text": "Om Växtkraft Webb: Vi är ett lokalt företag i Karlstad grundat av Peter. Genom att använda AI i vår utvecklingsprocess kan vi skapa allt från bokningssystem till kundsupportlösningar mycket snabbare än traditionella byråer. Det betyder lägre kostnader för dig och snabbare leverans, så att du kan fokusera på din verksamhet. Som din lokala partner finns vi alltid nära till hands – ingen stor anonym byrå, utan en personlig kontakt som förstår ditt företag och dina behov.",
+            "text": "Om Webbkraft: Vi är ett lokalt företag i Karlstad grundat av Peter. Genom att använda AI i vår utvecklingsprocess kan vi skapa allt från bokningssystem till kundsupportlösningar mycket snabbare än traditionella byråer. Det betyder lägre kostnader för dig och snabbare leverans, så att du kan fokusera på din verksamhet. Som din lokala partner finns vi alltid nära till hands – ingen stor anonym byrå, utan en personlig kontakt som förstår ditt företag och dina behov.",
             "metadata": {"category": "company", "topic": "about"}
         },
         {
-            "text": "Kontakta Växtkraft Webb: E-post: hej@vaxtkraftwebb.se. Telefon: 070-123 45 67. Vi finns i Karlstad, Sverige. Har du frågor eller vill komma igång? Fyll i kontaktformuläret på vår hemsida så hör vi av oss inom 24 timmar. Du kan också boka en gratis rådgivning direkt via hemsidan.",
+            "text": "Kontakta Webbkraft: E-post: hej@vaxtkraftwebb.se. Telefon: 070-123 45 67. Vi finns i Karlstad, Sverige. Har du frågor eller vill komma igång? Fyll i kontaktformuläret på vår hemsida så hör vi av oss inom 24 timmar. Du kan också boka en gratis rådgivning direkt via hemsidan.",
             "metadata": {"category": "contact", "topic": "contact_info"}
         },
         {
-            "text": "Varför välja Växtkraft Webb? Riskfri lansering med SEO-skydd som bevarar din Google-ranking. Modern teknik med Next.js, React och AI-verktyg. Lokalt företag i Karlstad med personlig kontakt. Snabbare och billigare leverans tack vare AI-driven utvecklingsprocess. Transparenta priser utan dolda kostnader. Vi kombinerar AI-verktyg med kreativt hantverk för att leverera snabbare, smartare och till ett bättre pris.",
+            "text": "Varför välja Webbkraft? Riskfri lansering med SEO-skydd som bevarar din Google-ranking. Modern teknik med Next.js, React och AI-verktyg. Lokalt företag i Karlstad med personlig kontakt. Snabbare och billigare leverans tack vare AI-driven utvecklingsprocess. Transparenta priser utan dolda kostnader. Vi kombinerar AI-verktyg med kreativt hantverk för att leverera snabbare, smartare och till ett bättre pris.",
             "metadata": {"category": "company", "topic": "why_us"}
         },
         {

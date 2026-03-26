@@ -1,6 +1,6 @@
-# Växtkraft Webb
+# Webbkraft
 
-Fullstack monorepo for **Växtkraft Webb** — a web agency in Karlstad, Sweden, offering web development and AI services to local businesses. All user-facing content is in Swedish.
+Fullstack monorepo for **Webbkraft** — a web agency in Karlstad, Sweden, offering web development and AI services to local businesses. All user-facing content is in Swedish.
 
 ## Tech Stack
 
