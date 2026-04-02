@@ -55,3 +55,9 @@ __pycache__/
 *.so
 *.egg
 *.egg-info/
+
+Claude code workfiles
+CLAUDE.md
+*.md
+!README.md
+.claude/
