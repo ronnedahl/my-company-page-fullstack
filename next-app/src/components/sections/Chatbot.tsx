@@ -98,8 +98,9 @@ export default function Chatbot() {
         }`}
       />
 
-      <div
+      <button
         onClick={() => setIsOpen(!isOpen)}
+        aria-label={isOpen ? "Stäng chattbot" : "Öppna chattbot"}
         className={`fixed bottom-5 right-5 md:bottom-8 md:right-8 z-[999] w-15 h-15 rounded-full overflow-hidden cursor-pointer shadow-[0_5px_20px_rgba(0,0,0,0.3)] transition-all duration-300 hover:scale-110 border-2 border-accent-green ${
           isScrolling && !isOpen ? "opacity-0 scale-75 pointer-events-none" : "opacity-100 scale-100"
         }`}
@@ -111,7 +112,7 @@ export default function Chatbot() {
           height={60}
           className="object-cover w-full h-full"
         />
-      </div>
+      </button>
 
       {/* Mobile: fullscreen chat */}
       <div
@@ -190,6 +191,7 @@ export default function Chatbot() {
           <span>Hej! Hur kan vi hjälpa dig?</span>
           <button
             onClick={() => setIsOpen(false)}
+            aria-label="Stäng chatt"
             className="bg-transparent border-none text-white text-lg cursor-pointer"
           >
             <FontAwesomeIcon icon={faXmark} />

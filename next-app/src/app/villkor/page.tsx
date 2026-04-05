@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: "Allmänna Villkor",
   description:
     "Läs Webbkrafts allmänna villkor för tjänster inom webbutveckling och digital marknadsföring.",
+  alternates: { canonical: "/villkor" },
+  openGraph: {
+    title: "Allmänna Villkor | Webbkraft",
+    description:
+      "Läs Webbkrafts allmänna villkor för tjänster inom webbutveckling och digital marknadsföring.",
+  },
 };
 
 export default function VillkorPage() {

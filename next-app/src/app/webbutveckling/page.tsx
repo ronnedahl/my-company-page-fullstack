@@ -11,7 +11,9 @@ export const metadata: Metadata = {
   title: "Webbutveckling & Redesign",
   description:
     "Vi bygger moderna webbplatser med hjälp av AI utan att tappa din Google-ranking.",
+  alternates: { canonical: "/webbutveckling" },
   openGraph: {
+    title: "Webbutveckling & Redesign | Webbkraft",
     description:
       "Vi bygger moderna webbplatser med hjälp av AI utan att tappa din Google-ranking.",
   },

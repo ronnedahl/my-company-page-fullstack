@@ -49,6 +49,7 @@ export default function TimeSlotPicker({ date, selected, onSelect }: TimeSlotPic
               key={slot.start_time}
               disabled={!slot.available}
               onClick={() => onSelect(slot.start_time)}
+              aria-label={`Välj tid ${slot.start_time}`}
               className={`py-3 px-4 rounded-lg text-sm font-medium transition-all ${
                 !slot.available
                   ? "bg-gray-100 text-gray-400 cursor-not-allowed line-through"

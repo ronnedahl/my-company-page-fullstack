@@ -23,6 +23,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://webbkraft.net"),
+  alternates: {
+    canonical: "/",
+  },
   title: {
     default: "Webbkraft - Modern Webbutveckling i Karlstad",
     template: "%s | Webbkraft",
@@ -36,14 +39,14 @@ export const metadata: Metadata = {
     title: "Webbkraft - Modern Webbutveckling i Karlstad",
     description:
       "Vi hjälper lokala företag i Karlstad att växa digitalt med moderna hemsidor och AI-teknik.",
-    images: [{ url: "/images/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "/images/logo-webb.webp", width: 512, height: 512 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Webbkraft - Modern Webbutveckling i Karlstad",
     description:
       "Vi hjälper lokala företag i Karlstad att växa digitalt med moderna hemsidor och AI-teknik.",
-    images: ["/images/og-image.png"],
+    images: ["/images/logo-webb.webp"],
   },
 };
 

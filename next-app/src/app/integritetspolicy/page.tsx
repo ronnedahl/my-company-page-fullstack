@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: "Integritetspolicy",
   description:
     "Läs om hur Webbkraft hanterar dina personuppgifter i enlighet med GDPR.",
+  alternates: { canonical: "/integritetspolicy" },
+  openGraph: {
+    title: "Integritetspolicy | Webbkraft",
+    description:
+      "Läs om hur Webbkraft hanterar dina personuppgifter i enlighet med GDPR.",
+  },
 };
 
 export default function IntegritetspolicyPage() {

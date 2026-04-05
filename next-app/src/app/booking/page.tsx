@@ -6,7 +6,9 @@ import BookingWizard from "@/components/booking/BookingWizard";
 export const metadata: Metadata = {
   title: "Demo Bokningssystem",
   description: "Se hur ett smart bokningssystem fungerar i praktiken. Testa att boka en tid hos en exempelverkstad.",
+  robots: { index: false, follow: false },
   openGraph: {
+    title: "Demo Bokningssystem | Webbkraft",
     description: "Se hur ett smart bokningssystem fungerar i praktiken. Testa att boka en tid hos en exempelverkstad.",
   },
 };
