@@ -11,7 +11,9 @@ export const metadata: Metadata = {
   title: "SEO & Synlighet på Google",
   description:
     "Vi hjälper dig att klättra i sökresultaten så att lokala kunder hittar just ditt företag före konkurrenternas.",
+  alternates: { canonical: "/seo" },
   openGraph: {
+    title: "SEO & Synlighet på Google | Webbkraft",
     description:
       "Vi hjälper dig att klättra i sökresultaten så att lokala kunder hittar just ditt företag före konkurrenternas.",
   },

@@ -11,7 +11,9 @@ export const metadata: Metadata = {
   title: "Snabbanalys & Åtgärd",
   description:
     "Vi gör en blixtsnabb analys av din nuvarande sida och ger förslag på direkta förbättringar för ökad försäljning.",
+  alternates: { canonical: "/snabbanalys" },
   openGraph: {
+    title: "Snabbanalys & Åtgärd | Webbkraft",
     description:
       "Vi gör en blixtsnabb analys av din nuvarande sida och ger förslag på direkta förbättringar för ökad försäljning.",
   },

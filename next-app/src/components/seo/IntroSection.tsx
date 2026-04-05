@@ -8,7 +8,7 @@ export default function IntroSection() {
           <div className="relative rounded-[20px] overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.1)]">
             <Image
               src="/images/seo-connections.webp"
-              alt="Google sökresultat"
+              alt="Visualisering av SEO-kopplingar och sökmotoroptimering för lokala företag"
               width={600}
               height={400}
               className="w-full h-auto rounded-[20px]"

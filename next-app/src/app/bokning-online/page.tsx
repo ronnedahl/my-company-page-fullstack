@@ -11,7 +11,9 @@ export const metadata: Metadata = {
   title: "Bokningssystem Online",
   description:
     "Låt dina kunder boka tid direkt på nätet. Smidiga bokningssystem som sparar tid och ökar försäljningen.",
+  alternates: { canonical: "/bokning-online" },
   openGraph: {
+    title: "Bokningssystem Online | Webbkraft",
     description:
       "Låt dina kunder boka tid direkt på nätet. Smidiga bokningssystem som sparar tid och ökar försäljningen.",
   },

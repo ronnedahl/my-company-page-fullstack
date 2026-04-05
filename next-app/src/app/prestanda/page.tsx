@@ -11,7 +11,9 @@ export const metadata: Metadata = {
   title: "Hastighet & Prestanda",
   description:
     "Vi optimerar din hemsida för blixtsnabba laddtider som ger bättre Google-ranking och nöjdare besökare.",
+  alternates: { canonical: "/prestanda" },
   openGraph: {
+    title: "Hastighet & Prestanda | Webbkraft",
     description:
       "Vi optimerar din hemsida för blixtsnabba laddtider som ger bättre Google-ranking och nöjdare besökare.",
   },
