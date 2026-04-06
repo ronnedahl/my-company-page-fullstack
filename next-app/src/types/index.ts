@@ -5,6 +5,8 @@ export interface ServiceCardData {
   title: string;
   description: string;
   href?: string;
+  imageUrl: string;
+  imageAlt: string;
 }
 
 export interface CaseStudyData {

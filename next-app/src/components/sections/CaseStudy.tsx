@@ -24,7 +24,7 @@ export default function CaseStudy({
       }`}
     >
       <div>
-        <span className="bg-card-bg px-4 py-1 rounded-[20px] text-[0.75rem] font-medium uppercase tracking-[0.05em] inline-block mb-5 text-accent-green">
+        <span className="glass-card px-4 py-1 rounded-[20px] text-[0.75rem] font-medium uppercase tracking-[0.05em] inline-block mb-5 text-accent-green">
           {tag}
         </span>
         <h3 className="text-[1.25rem] md:text-[2rem] font-semibold mb-4">
@@ -40,7 +40,7 @@ export default function CaseStudy({
           className="object-cover"
         />
         <div
-          className={`absolute bg-card-bg px-6 py-4 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.1)] flex flex-col ${statClasses}`}
+          className={`absolute glass-card px-6 py-4 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.3)] flex flex-col ${statClasses}`}
         >
           <strong className="text-[1.5rem] text-text">{statValue}</strong>
           <span className="text-[0.8rem] text-gray-text">{statLabel}</span>

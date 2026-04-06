@@ -1,6 +1,7 @@
 import type { PricingCardData } from "@/types";
 import PricingCard from "./PricingCard";
 import SectionHeader from "@/components/ui/SectionHeader";
+import FadeInUp from "@/components/ui/FadeInUp";
 
 const packages: PricingCardData[] = [
   {
@@ -11,16 +12,18 @@ const packages: PricingCardData[] = [
       "Mobilanpassad design",
       "Kontaktformulär",
       "Grundläggande SEO",
+      "Responsiv på alla enheter",
     ],
   },
   {
     name: "Tillväxtpaketet",
     price: "12 900",
     features: [
-      "Företagswebbplats (flersidig)",
+      "Flersidig webbplats",
       "Bokningssystem",
       "SEO-optimering",
       "Google-anslutning",
+      "Anpassad design",
     ],
     featured: true,
     badge: "Populärast",
@@ -40,15 +43,19 @@ const packages: PricingCardData[] = [
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="py-10 sm:py-20">
+    <section id="pricing" className="py-16 sm:py-28">
       <div className="max-w-[1200px] mx-auto px-5">
-        <SectionHeader
-          title="Våra Paket"
-          subtitle="Transparenta priser utan dolda kostnader. Välj det paket som passar ditt företag bäst."
-        />
+        <FadeInUp>
+          <SectionHeader
+            title="Våra Paket"
+            subtitle="Transparenta priser utan dolda kostnader. Välj det paket som passar ditt företag bäst."
+          />
+        </FadeInUp>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[400px] md:max-w-none mx-auto">
-          {packages.map((pkg) => (
-            <PricingCard key={pkg.name} {...pkg} />
+          {packages.map((pkg, i) => (
+            <FadeInUp key={pkg.name} delay={i * 150}>
+              <PricingCard {...pkg} />
+            </FadeInUp>
           ))}
         </div>
       </div>

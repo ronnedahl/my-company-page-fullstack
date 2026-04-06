@@ -1,31 +1,32 @@
-import Image from "next/image";
 import { faArrowRight, faArrowDown } from "@/lib/icons";
 import ButtonPrimary from "@/components/ui/ButtonPrimary";
 import ButtonOutline from "@/components/ui/ButtonOutline";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative h-[85vh] min-h-[500px] flex items-end">
-      <Image
-        src="/images/webbyrå-karlstad-stad-flygbild.webp"
-        alt="Flygbild över Karlstad stad med älven och domkyrkan"
-        fill
-        className="object-cover"
-        priority
-      />
+    <section id="home" className="relative h-[85vh] min-h-[500px] flex items-end overflow-hidden">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="/videos/hero-video.mp4" type="video/mp4" />
+      </video>
 
-      {/* Gradient overlay — transparent top, solid bg bottom */}
+      {/* Dark overlay for text readability */}
       <div
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(to top, #1A1A1A 0%, rgba(26,26,26,0.7) 40%, transparent 100%)",
+            "linear-gradient(to top, #000000 0%, rgba(0,0,0,0.85) 40%, rgba(0,0,0,0.6) 100%)",
         }}
       />
 
       <div className="relative z-10 max-w-[1200px] mx-auto px-5 pb-15 w-full">
         <div className="uppercase tracking-[2px] text-gray-text mb-3 flex items-center gap-4 font-semibold text-sm">
-          <span className="w-10 h-px bg-border" />
+          <span className="w-10 h-px bg-accent-green/50" />
           Din Lokala Partner
         </div>
 
