@@ -17,7 +17,7 @@ export default function ButtonOutline({
   return (
     <a
       href={href}
-      className={`border border-gray-text/30 text-text px-5 py-2 rounded-lg text-sm font-semibold hover:bg-text hover:text-bg hover:border-text inline-flex items-center gap-2 ${className}`}
+      className={`border border-white/20 text-white/90 px-5 py-2.5 rounded-lg text-sm font-semibold hover:border-accent-green hover:text-accent-green backdrop-blur-sm inline-flex items-center gap-2 transition-all duration-300 ${className}`}
     >
       {children}
       {icon && <FontAwesomeIcon icon={icon} />}

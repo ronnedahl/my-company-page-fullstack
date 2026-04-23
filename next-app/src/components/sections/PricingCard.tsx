@@ -10,21 +10,19 @@ export default function PricingCard({
   badge,
 }: PricingCardData) {
   const cardClasses = featured
-    ? "bg-card-bg border-accent-green -translate-y-2 hover:-translate-y-3"
-    : "bg-card-bg border-[#1e1e1e] hover:-translate-y-1.5 hover:bg-[#1a1a1a]";
-
-  const checkColor = "text-accent-green";
+    ? "glass-card border-accent-green/40 glow-gold -translate-y-2 hover:-translate-y-3 scale-[1.03]"
+    : "glass-card border-white/[0.06] hover:-translate-y-1.5 hover:border-accent-green/20";
 
   const btnClasses = featured
-    ? "bg-accent-green border-accent-green text-white hover:opacity-90"
-    : "border-accent-green text-accent-green hover:bg-accent-green hover:text-white";
+    ? "bg-accent-green border-accent-green text-[#0A0E17] hover:brightness-110 hover:shadow-[0_0_20px_rgba(200,169,110,0.3)]"
+    : "border-accent-green/40 text-accent-green hover:bg-accent-green hover:text-[#0A0E17]";
 
   return (
     <div
-      className={`border rounded-xl p-10 px-7 text-center relative transition-all duration-300 ${cardClasses}`}
+      className={`border rounded-2xl p-10 px-7 text-center relative transition-all duration-300 ${cardClasses}`}
     >
       {badge && (
-        <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-light-green text-accent-green px-5 py-1 rounded-[20px] text-[0.8rem] font-semibold">
+        <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-accent-green/10 text-accent-green px-5 py-1 rounded-[20px] text-[0.8rem] font-semibold border border-accent-green/20">
           {badge}
         </span>
       )}
@@ -38,7 +36,7 @@ export default function PricingCard({
             key={feature}
             className="py-2 text-[0.9rem] flex items-center gap-2.5"
           >
-            <FontAwesomeIcon icon={faCheck} className={`text-xs ${checkColor}`} />
+            <FontAwesomeIcon icon={faCheck} className="text-xs text-accent-green" />
             {feature}
           </li>
         ))}

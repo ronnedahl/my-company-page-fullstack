@@ -1,4 +1,5 @@
 import ProcessCard from "./ProcessCard";
+import FadeInUp from "@/components/ui/FadeInUp";
 
 const steps = [
   {
@@ -38,7 +39,7 @@ const steps = [
     imageAlt: "Mörk bakgrund med HTTPS text för säker domän och hemsida i Karlstad",
     subtitle: "Ny eller befintlig domän",
     description:
-      "Har företaget redan en domän? Perfekt! Vi bygger din nya hemsida i en dold testmiljö. Din nuvarande sida är live och rullar på som vanligt tills vi är redo att byta. Saknar ni domän hjälper vi er givetvis att registrera en.",
+      "Vi bygger i en dold testmiljö medan din nuvarande sida rullar på som vanligt. Saknar ni domän hjälper vi er registrera en.",
   },
   {
     step: 5,
@@ -48,7 +49,7 @@ const steps = [
     imageAlt: "Mobil med Google sökning vid lansering av hemsida online i Karlstad",
     subtitle: "Nu är det dags att gå live",
     description:
-      "När du har köpt din domän och vi har kopplat den till din hemsida är det dags att gå live.",
+      "Vi kopplar domänen till din nya hemsida och ser till att allt fungerar perfekt vid lansering.",
   },
   {
     step: 6,
@@ -63,14 +64,18 @@ const steps = [
 
 export default function Process() {
   return (
-    <section id="process" className="py-10 sm:py-20">
+    <section id="process" className="py-16 sm:py-28">
       <div className="max-w-[1200px] mx-auto px-5">
-        <h2 className="text-[1.5rem] md:text-[2.5rem] font-semibold text-center mb-12">
-          Så här går processen till
-        </h2>
+        <FadeInUp>
+          <h2 className="text-[1.5rem] md:text-[2.5rem] font-semibold text-center mb-14">
+            Så här går processen till
+          </h2>
+        </FadeInUp>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-          {steps.map((step) => (
-            <ProcessCard key={step.step} {...step} />
+          {steps.map((step, i) => (
+            <FadeInUp key={step.step} delay={i * 100}>
+              <ProcessCard {...step} />
+            </FadeInUp>
           ))}
         </div>
       </div>

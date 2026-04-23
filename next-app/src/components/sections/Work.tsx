@@ -1,5 +1,6 @@
 import type { CaseStudyData } from "@/types";
 import CaseStudy from "./CaseStudy";
+import FadeInUp from "@/components/ui/FadeInUp";
 
 const caseStudies: CaseStudyData[] = [
   {
@@ -43,22 +44,26 @@ const caseStudies: CaseStudyData[] = [
 
 export default function Work() {
   return (
-    <section id="work" className="py-10 sm:py-20">
+    <section id="work" className="py-16 sm:py-28">
       <div className="max-w-[1200px] mx-auto px-5">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-15 gap-5">
-          <div>
-            <h2 className="text-[1.5rem] md:text-[2.5rem] font-semibold mb-2.5">
-              Visste du att...
-            </h2>
-            <p className="text-gray-text max-w-[400px]">
-              Fakta som visar varför en professionell webbnärvaro är avgörande
-              för ditt företag.
-            </p>
+        <FadeInUp>
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-15 gap-5">
+            <div>
+              <h2 className="text-[1.5rem] md:text-[2.5rem] font-semibold mb-2.5">
+                Visste du att...
+              </h2>
+              <p className="text-gray-text max-w-[400px]">
+                Fakta som visar varför en professionell webbnärvaro är avgörande
+                för ditt företag.
+              </p>
+            </div>
           </div>
-        </div>
+        </FadeInUp>
 
-        {caseStudies.map((study) => (
-          <CaseStudy key={study.title} {...study} />
+        {caseStudies.map((study, i) => (
+          <FadeInUp key={study.title} delay={i * 100}>
+            <CaseStudy {...study} />
+          </FadeInUp>
         ))}
       </div>
     </section>

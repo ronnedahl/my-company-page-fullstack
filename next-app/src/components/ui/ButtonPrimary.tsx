@@ -15,7 +15,7 @@ export default function ButtonPrimary({
   icon,
   className = "",
 }: ButtonPrimaryProps) {
-  const classes = `bg-accent-green text-white px-6 py-3 rounded-lg font-semibold inline-flex items-center gap-2 hover:opacity-90 ${className}`;
+  const classes = `bg-accent-green text-[#0A0E17] px-6 py-3 rounded-lg font-semibold inline-flex items-center gap-2 hover:brightness-110 hover:shadow-[0_0_20px_rgba(200,169,110,0.3)] transition-all duration-300 ${className}`;
 
   if (href.startsWith("/")) {
     return (
