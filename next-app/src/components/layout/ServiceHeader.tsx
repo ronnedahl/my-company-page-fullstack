@@ -10,7 +10,7 @@ export default function ServiceHeader() {
         <nav className="flex justify-between items-center">
           <Link href="/" className="flex items-center">
             <Image
-              src="/images/logo-webb.webp"
+              src="/images/logo-webb-dark.png"
               alt="Webbkraft"
               width={350}
               height={120}

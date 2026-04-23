@@ -2,7 +2,7 @@ import type { StepData } from "@/types";
 
 export default function StepCard({ number, title, description }: StepData) {
   return (
-    <div className="p-5 border-l-3 border-border transition-all duration-300 hover:border-l-accent-green hover:bg-card-bg">
+    <div className="p-5 border-l-3 border-white/[0.04] transition-all duration-300 hover:border-l-accent-green hover:bg-white/[0.015]">
       <div className="text-[3rem] font-extrabold text-[#E8D6B5] leading-none mb-2.5">
         {number}
       </div>

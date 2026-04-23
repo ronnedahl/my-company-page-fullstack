@@ -3,7 +3,7 @@ import type { FeatureData } from "@/types";
 
 export default function FeatureItem({ icon, title, description }: FeatureData) {
   return (
-    <div className="bg-card-bg p-7 rounded-[16px] border border-border">
+    <div className="glass-card p-7 rounded-2xl">
       <div className="text-accent-green text-2xl mb-4">
         <FontAwesomeIcon icon={icon} />
       </div>
