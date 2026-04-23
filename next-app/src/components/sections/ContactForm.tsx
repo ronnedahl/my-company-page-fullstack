@@ -12,7 +12,7 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-card-bg rounded-[16px] p-6 sm:p-10"
+      className="glass-card rounded-2xl p-6 sm:p-10"
     >
       <div className="mb-5">
         <label htmlFor="name" className="block font-semibold text-[0.9rem] mb-2">

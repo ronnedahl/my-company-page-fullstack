@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function CtaSection() {
   return (
     <section className="max-w-[1200px] mx-auto px-5 mb-15">
-      <div className="bg-card-bg border border-border text-white text-center py-20 px-5 rounded-[30px]">
+      <div className="glass-card text-white text-center py-20 px-5 rounded-[30px]">
         <h2 className="text-[1.5rem] md:text-[2.5rem] font-semibold mb-5">
           Redo att ge dina kunder svar direkt?
         </h2>
