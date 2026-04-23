@@ -41,11 +41,11 @@ export default function MobileMenu({ navLinks }: { navLinks: NavLink[] }) {
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 left-0 h-full w-[280px] bg-card-bg z-[9999] md:hidden flex flex-col transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 h-full w-[280px] bg-bg border-r border-white/[0.08] z-[9999] md:hidden flex flex-col transition-transform duration-300 ease-in-out ${
           open ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex justify-between items-center p-5 border-b border-border">
+        <div className="flex justify-between items-center p-5 border-b border-white/[0.08]">
           <span className="text-text font-medium text-lg">Meny</span>
           <button
             onClick={() => setOpen(false)}
@@ -63,7 +63,7 @@ export default function MobileMenu({ navLinks }: { navLinks: NavLink[] }) {
                 <a
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="block py-3 px-4 text-text text-base font-medium rounded-lg hover:bg-[#1a1a1a] hover:text-accent-green transition-colors"
+                  className="block py-3 px-4 text-text text-base font-medium rounded-lg hover:bg-white/[0.04] hover:text-accent-green transition-colors"
                 >
                   {link.label}
                 </a>
